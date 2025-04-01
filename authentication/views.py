@@ -4,8 +4,8 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.status import *
-from .models import Account
-from .serializers import AccountSerializer
+from .models import Account, AccountSettings
+from .serializers import AccountSerializer, SettingsSerializer
 from django.contrib.auth import login, logout, authenticate
 from rest_framework.authentication import SessionAuthentication
 
@@ -151,6 +151,31 @@ class AuthenticationAPI(APIView):
         return Response(data={"response": "user not found"}, status=HTTP_404_NOT_FOUND)
 
 
+class SettingsAPI(APIView):
+
+    permission_classes = [IsAuthenticated]
+    authentication_classes = [SessionAuthentication]
+
+    def get(self, request):
+        user = request.user
+        serializer = SettingsSerializer(instance=user.settings)
+
+        return Response(data=serializer.data, status=HTTP_200_OK)
+
+    def patch(self, request):
+        user = request.user
+        data = request.data
+
+        serializer = SettingsSerializer(instance=user.settings, data=data, partial=True)
+
+        if serializer.is_valid():
+            serializer.save()
+
+            return Response(data=serializer.data, status=HTTP_202_ACCEPTED)
+        
+        return Response(data=serializer.errors, status=HTTP_400_BAD_REQUEST)
+
+
 # Logout & Close account APIs | Session Based & JWT
 
 class LogoutAPI(APIView):
@@ -194,8 +219,12 @@ def account(request):
     if request.method == 'GET':
         user = request.user
         serializer = AccountSerializer(instance=user)
+        settings_serializer = SettingsSerializer(instance=user.settings)
 
-        return Response(data=serializer.data, status=HTTP_200_OK)
+        data = serializer.data
+        data['settings'] = settings_serializer.data
+
+        return Response(data=data, status=HTTP_200_OK)
 
     if request.method == 'PATCH':
         user = request.user
@@ -248,3 +277,5 @@ def check_auth(request):
         return Response(status=HTTP_200_OK)
     
     return Response(status=HTTP_401_UNAUTHORIZED)
+
+

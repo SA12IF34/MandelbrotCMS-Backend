@@ -14,7 +14,11 @@ class AccountManager(BaseUserManager):
         email = self.normalize_email(email)
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
-        user.save()
+        user.save(self._db)
+
+        from .models import AccountSettings
+        AccountSettings.objects.create(account=user)
+
         return user
 
     def create_superuser(self, email, password, **extra_fields):

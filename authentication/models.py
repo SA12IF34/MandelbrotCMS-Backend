@@ -25,3 +25,12 @@ class Account(AbstractUser):
 
     def __str__(self):
         return f'{self.username} | {self.email} | {self.id}'
+
+
+class AccountSettings(models.Model):
+    account = models.OneToOneField(Account, on_delete=models.CASCADE, related_name='settings')
+    redirect_home = models.BooleanField(default=True, verbose_name='Redirect to home page')
+    intro_parts_nav = models.BooleanField(default=False, verbose_name='Intro parts navigation')
+
+    def __str__(self):
+        return f'{self.account.username} | {self.account.email} | {self.account.id}'

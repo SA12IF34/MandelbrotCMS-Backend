@@ -10,6 +10,7 @@ from .views import (
     AuthenticationAPI,
     
     # General
+    SettingsAPI,
     LogoutAPI,
     CloseAccountAPI,
     account,
@@ -29,6 +30,7 @@ urlpatterns = [
     # General Paths
     path('apis/logout/', LogoutAPI.as_view()),
     path('apis/close/', CloseAccountAPI.as_view()),
+    path('apis/settings/', SettingsAPI.as_view()),
     path('apis/my-account/', account),
     path('apis/check-auth/', check_auth)
 
