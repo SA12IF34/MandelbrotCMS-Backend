@@ -9,17 +9,52 @@ from .serializers import AccountSerializer, SettingsSerializer
 from django.contrib.auth import login, logout, authenticate
 from rest_framework.authentication import SessionAuthentication
 
+from django.conf import settings
+
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.views import TokenRefreshView
 
+from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
+from allauth.socialaccount.providers.github.views import GitHubOAuth2Adapter
+from dj_rest_auth.registration.views import SocialLoginView
 
-# import requests
 import datetime
+import requests
 
-from django.conf import settings
+
+# Social Authentication
+
+class GoogleLogin(SocialLoginView):
+    adapter_class = GoogleOAuth2Adapter
+
+class GitHubLogin(SocialLoginView):
+    adapter_class = GitHubOAuth2Adapter
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def get_github_access_token(request):
+    try:
+        response = requests.post('https://github.com/login/oauth/access_token', {
+            'client_id': settings.GITHUB_CLIENT_ID,
+            'client_secret': settings.GITHUB_CLIENT_SECRET,
+            'code': request.data['code']
+        })
+
+        if (response.text.startswith('error')):
+            return Response(status=HTTP_400_BAD_REQUEST)
+        
+        else:
+            access_token = response.text.split('&')[0].split('=')[1]
+
+            return Response(data={'access_token': access_token}, status=HTTP_200_OK)
+        
+    except:
+        return Response(status=HTTP_500_INTERNAL_SERVER_ERROR)
+
+
 
 
 # JWT Authentication

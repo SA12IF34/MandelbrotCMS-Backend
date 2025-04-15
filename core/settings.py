@@ -113,7 +113,19 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.github',
 ]
+
+if DEBUG:
+    SITE_ID = 2
+else:
+    SITE_ID = 3
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -125,11 +137,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-
+    'allauth.account.middleware.AccountMiddleware'
 ]
 
-
-
+CLIENT_ID = ENV('GOOGLE_CLIENT_ID')
+CLIENT_SECRET = ENV('GOOGLE_CLIENT_SECRET')
+GITHUB_CLIENT_ID = ENV('GITHUB_CLIENT_ID')
+GITHUB_CLIENT_SECRET = ENV('GITHUB_CLIENT_SECRET')
 
 ROOT_URLCONF = 'core.urls'
 
