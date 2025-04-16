@@ -2,3 +2,6 @@ venv
 media
 media/*
 db.sqlite3
+core/settings.py
+Frontend
+Frontend/*

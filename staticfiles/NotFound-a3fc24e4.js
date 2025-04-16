@@ -1,0 +1,1 @@
+import{j as e,L as t}from"./index-3a55f404.js";function o(){return document.title="Not Found",e.jsxs("div",{className:"not-found-page",children:[e.jsx("h2",{children:"The Page Does Not Exist.."}),e.jsx("br",{}),e.jsx(t,{className:"not-found-link",to:"/entertainment",children:"Back Home Page"})]})}export{o as default};

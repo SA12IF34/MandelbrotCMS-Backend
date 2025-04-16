@@ -452,7 +452,7 @@
   "fields": {
     "title": "Shingeki no Kyojin",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-19T00:02:12.675Z",
+    "update_date": "2025-04-09T17:07:16.861Z",
     "user": 1,
     "description": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal Titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.\n\nAfter witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=shingeki&cat=anime",
@@ -2839,14 +2839,14 @@
   "fields": {
     "title": "Serious Sam Classics: Revolution",
     "create_date": "2025-03-15",
-    "update_date": "2024-09-03T00:00:00Z",
+    "update_date": "2025-03-23T13:18:41.229Z",
     "user": 1,
     "description": "Serious Sam Classics: Revolution is a unified version of the Croteam's original Serious Sam Classic: The First Encounter and Serious Sam Classic: The Second Encounter experiences. The game started to be redesigned by Alligator Pit, an indie development team made of Serious Sam fans with support from Croteam, but it was “on ice” for a while due to life happening to Alligator Pit team, so recently Croteam took over the EA development and made it to the finish line.",
     "link": "https://store.steampowered.com/app/227780/Serious_Sam_Classics_Revolution/",
     "type": "game",
     "subtype": null,
     "mal_id": null,
-    "status": "future",
+    "status": "current",
     "special": true,
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227780/header.jpg?t=1582213660",
     "image_upload": "",
@@ -3959,19 +3959,19 @@
   "fields": {
     "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-20T22:38:39.954Z",
+    "update_date": "2025-03-29T03:11:35.638Z",
     "user": 1,
     "description": "Third season of Re:Zero kara Hajimeru Isekai Seikatsu.",
     "link": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season",
     "type": "anime&manga",
     "subtype": null,
     "mal_id": null,
-    "status": "current",
+    "status": "done",
     "special": false,
     "image": "https://cdn.myanimelist.net/images/anime/1706/144725.jpg",
     "image_upload": "",
-    "rate": null,
-    "user_rate": null,
+    "rate": 8.5,
+    "user_rate": 8.5,
     "genres": [
       "Drama",
       "Fantasy",
@@ -4663,14 +4663,14 @@
   "fields": {
     "title": "Narcissu 1st & 2nd",
     "create_date": "2025-03-15",
-    "update_date": "2025-01-06T00:00:00Z",
+    "update_date": "2025-03-23T13:17:58.426Z",
     "user": 1,
     "description": "",
     "link": "https://store.steampowered.com/app/264380/Narcissu_1st__2nd/",
     "type": "game",
     "subtype": null,
     "mal_id": null,
-    "status": "future",
+    "status": "current",
     "special": false,
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264380/header.jpg?t=1726604657",
     "image_upload": "",
@@ -5806,7 +5806,7 @@
   "fields": {
     "title": "Hibike! Euphonium 3",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-19T00:02:29.914Z",
+    "update_date": "2025-03-27T12:18:27.804Z",
     "user": 1,
     "description": "With the ensemble contest behind them, the members of the Kitauji High School concert band now aim to win a gold medal at the national competition. For third-year club president Kumiko Oumae and her friends, it is their last chance before graduation. Filled with anticipation and anxiety, Kumiko worries if she can successfully lead the band.\n\nAmid her struggles, Kumiko encounters transfer student Mayu Kuroe. From her gentle demeanor to her talented euphonium skills, Mayu was a member of the Seira Girls' School concert band—a regular at nationals. While Mayu is friendly, Kumiko cannot help but have an indescribable feeling from their meeting.\n\nAs new members arrive and plans are set in motion, the club, with an insatiable hunger for a gold medal, learns what it truly takes to propel themselves to reach the national level.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/39894/Hibike_Euphonium_3",
@@ -5818,7 +5818,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1216/142086.jpg",
     "image_upload": "",
     "rate": 8.72,
-    "user_rate": 9.0,
+    "user_rate": 9.5,
     "genres": [
       "Drama",
       "Music",
@@ -5861,51 +5861,23 @@
 },
 {
   "model": "entertainment.entertainment",
-  "pk": 236,
-  "fields": {
-    "title": "Super Cub",
-    "create_date": "2025-03-15",
-    "update_date": "2025-03-19T00:02:30.122Z",
-    "user": 1,
-    "description": "Koguma, a reserved second-year high school student, has nothing—no parents, hobbies, friends, or goals. On her way home one afternoon, she visits a vehicle shop in hopes of acquiring a motor scooter. With only enough money to make ends meet, she is disheartened by the price tags and prepares to turn back. However, as she is about to leave, the shop's owner offers her a pre-owned Honda Super Cub for ten thousand yen. Believing that the motorcycle will help brighten her monotonous world, she accepts the deal. As Koguma journeys through her town on small adventures with her Super Cub, she begins to build irreplaceable friendships and eagerly advances toward her new life.\n\n[Written by MAL Rewrite]",
-    "link": "https://myanimelist.net/anime/40685/Super_Cub",
-    "type": "anime&manga",
-    "subtype": null,
-    "mal_id": null,
-    "status": "done",
-    "special": false,
-    "image": "https://cdn.myanimelist.net/images/anime/1776/111172.jpg",
-    "image_upload": "",
-    "rate": 7.5,
-    "user_rate": 8.0,
-    "genres": [
-      "School"
-    ],
-    "locked": false,
-    "lock_reason": null,
-    "release_date": null,
-    "relatives": []
-  }
-},
-{
-  "model": "entertainment.entertainment",
   "pk": 237,
   "fields": {
     "title": "Kubikiri Cycle: Aoiro Savant to Zaregotozukai",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-19T00:02:30.314Z",
+    "update_date": "2025-03-30T20:36:50.774Z",
     "user": 1,
     "description": "Due to a mysterious disease, the genius Iria Akagami has been forced by her family to stay in a mansion on the isolated Wet Crow's Feather Island with only a handful of maids. To keep herself entertained, Iria invites a variety of fellow geniuses to stay as guests in her home, including computer savant Tomo Kunagisa and her unnamed assistant, skilled fortune-teller Maki Himena, famous artist Kanami Ibuki, academic scholar Akane Sonoyama, and renowned cook Yayoi Sashirono.\n\nThese visits progress as normal until one of the guests is found gruesomely murdered in the night without a single clue as to the identity of the killer or a possible motive. Tensions rise between those on the island as the killer remains at large, and Tomo's assistant takes it upon himself to uncover the culprit's identity before the murderous events progress any further.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/33263/Kubikiri_Cycle__Aoiro_Savant_to_Zaregotozukai",
     "type": "anime&manga",
     "subtype": null,
     "mal_id": null,
-    "status": "future",
+    "status": "done",
     "special": false,
     "image": "https://cdn.myanimelist.net/images/anime/12/81588.jpg",
     "image_upload": "",
-    "rate": null,
-    "user_rate": null,
+    "rate": 7.75,
+    "user_rate": 8.0,
     "genres": [
       "Drama",
       "Mystery",
@@ -6189,7 +6161,7 @@
   "fields": {
     "title": "Super Cub",
     "create_date": "2025-03-17",
-    "update_date": "2025-03-19T00:02:31.188Z",
+    "update_date": "2025-04-03T06:40:41.140Z",
     "user": 1,
     "description": "Koguma, a reserved second-year high school student, has nothing—no parents, hobbies, friends, or goals. On her way home one afternoon, she visits a vehicle shop in hopes of acquiring a motor scooter. With only enough money to make ends meet, she is disheartened by the price tags and prepares to turn back. However, as she is about to leave, the shop's owner offers her a pre-owned Honda Super Cub for ten thousand yen. Believing that the motorcycle will help brighten her monotonous world, she accepts the deal. As Koguma journeys through her town on small adventures with her Super Cub, she begins to build irreplaceable friendships and eagerly advances toward her new life.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/40685/Super_Cub",
@@ -6201,7 +6173,7 @@
     "image": "https://cdn.myanimelist.net/images/anime/1776/111172.webp",
     "image_upload": "",
     "rate": 7.45,
-    "user_rate": null,
+    "user_rate": 8.0,
     "genres": [
       "Cgdct",
       "Iyashikei",
@@ -6913,19 +6885,19 @@
   "fields": {
     "title": "Yuru Camp△ Season 2",
     "create_date": "2025-03-18",
-    "update_date": "2025-03-20T22:39:11.045Z",
+    "update_date": "2025-04-05T18:29:39.740Z",
     "user": 1,
     "description": "Having spent Christmas camping with her new friends, Rin Shima embarks on a solo-camping trip to see the New Year sunrise by the sea. All goes according to plan until unforeseen weather blocks the roads back home, making a return trip impossible. Rin, who is now stranded for a few days, is invited by Nadeshiko Kagamihara to stay at her grandmother's house. \n\nWhat is supposed to be a two-day trip becomes an extended period of sightseeing and new experiences for Rin, and she encounters some new and old faces along the way. Yuru Camp△ Season 2 continues the story of Rin, Nadeshiko, and their friends as they further explore the joys of camping.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/38474",
     "type": "anime&manga",
     "subtype": "anime",
     "mal_id": null,
-    "status": "current",
-    "special": false,
+    "status": "done",
+    "special": true,
     "image": "https://cdn.myanimelist.net/images/anime/1255/110636.webp",
     "image_upload": "",
     "rate": 8.5,
-    "user_rate": null,
+    "user_rate": 9.0,
     "genres": [
       "CGDCT",
       "Iyashikei",
@@ -6949,19 +6921,19 @@
   "fields": {
     "title": "Yuru Camp△ Movie",
     "create_date": "2025-03-18",
-    "update_date": "2025-03-19T00:02:34.272Z",
+    "update_date": "2025-04-03T21:27:52.899Z",
     "user": 1,
     "description": "As time marches forward, Rin Shima, Nadeshiko Kagamihara, and their friends have grown into full-fledged adults. Now with careers and responsibilities, they can no longer freely spend their days camping and adventuring. However, Chiaki Oogaki, who currently works for the Yamanashi Tourism Organization, reunites the group as she comes up with an exciting proposal—to build a campground together to revitalize an abandoned patch of land from their homeplace, the Yamanashi Prefecture.\n\nMotivated by this ambitious project, the girls combine their efforts to create an environment where future generations can enjoy unique moments as they once did, all while reminiscing the charms of camping from their high school days.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/38475",
     "type": "anime&manga",
     "subtype": "anime",
     "mal_id": null,
-    "status": "future",
+    "status": "done",
     "special": false,
     "image": "https://cdn.myanimelist.net/images/anime/1806/124396.jpg",
     "image_upload": "",
     "rate": 8.39,
-    "user_rate": null,
+    "user_rate": 8.5,
     "genres": [
       "CGDCT",
       "Iyashikei",
@@ -7406,7 +7378,7 @@
   "fields": {
     "title": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
     "create_date": "2025-03-22",
-    "update_date": "2025-03-29T19:32:23.419Z",
+    "update_date": "2025-03-29T20:25:30.140Z",
     "user": 1,
     "description": "Sung Jin-Woo, dubbed the weakest hunter of all mankind, grows stronger by the day with the supernatural powers he has gained. However, keeping his skills hidden becomes more difficult as dungeon-related incidents pile up around him.\n\nWhen Jin-Woo and a few other low-ranked hunters are the only survivors of a dungeon that turns out to be a bigger challenge than initially expected, he draws attention once again, and hunter guilds take an increased interest in him. Meanwhile, a strange hunter who has been lost for ten years returns with a dire warning about an upcoming catastrophic event. As the calamity looms closer, Jin-Woo must continue leveling up to make sure nothing stops him from reaching his ultimate goal—saving the life of his mother.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/58567",
@@ -7438,7 +7410,7 @@
   "fields": {
     "title": "Ore dake Level Up na Ken",
     "create_date": "2025-03-22",
-    "update_date": "2025-03-22T20:08:33.292Z",
+    "update_date": "2025-03-23T02:05:09.181Z",
     "user": 1,
     "description": "Humanity was caught at a precipice a decade ago when the first gates—portals linked with other dimensions that harbor monsters immune to conventional weaponry—emerged around the world. Alongside the appearance of the gates, various humans were transformed into hunters and bestowed superhuman abilities. Responsible for entering the gates and clearing the dungeons within, many hunters chose to form guilds to secure their livelihoods.\n\nSung Jin-Woo is an E-rank hunter dubbed as the weakest hunter of all mankind. While exploring a supposedly safe dungeon, he and his party encounter an unusual tunnel leading to a deeper area. Enticed by the prospect of treasure, the group presses forward, only to be confronted with horrors beyond their imagination. Miraculously, Jin-Woo survives the incident and soon finds that he now has access to an interface visible only to him. This mysterious system promises him the power he has long dreamed of—but everything comes at a price.\n\n[Written by MAL Rewrite]",
     "link": "https://myanimelist.net/anime/52299",
@@ -7497,13 +7469,1837 @@
   }
 },
 {
+  "model": "entertainment.entertainment",
+  "pk": 289,
+  "fields": {
+    "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+    "create_date": "2025-03-27",
+    "update_date": "2025-04-12T07:24:50.471Z",
+    "user": 1,
+    "description": "Off-duty Japan Self-Defense Forces (JSDF) officer and otaku Youji Itami is on his way to attend a doujin convention in Ginza, Tokyo when a mysterious portal in the shape of a large gate suddenly appears. From this gate, supernatural creatures and warriors clad in medieval armor emerge, charging through the city, killing and destroying everything in their path. With swift actions, Youji saves as many lives as he can while the rest of the JSDF direct their efforts toward stopping the invasion.\n\nThree months after the attack, Youji has been tasked with leading a special recon team, as part of a JSDF task force, that will be sent to the world beyond the gate—now being referred to as the \"Special Region.\" They must travel into this unknown world in order to learn more about what they are dealing with and attempt to befriend the locals in hopes of creating peaceful ties with the ruling empire. But if they fail, they face the consequence of participating in a devastating war that will engulf both sides of the gate.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/28907/Gate__Jieitai_Kanochi_nite_Kaku_Tatakaeri",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 28907,
+    "status": "done",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/8/76222.webp",
+    "image_upload": "",
+    "rate": 7.68,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Military"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      290
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 290,
+  "fields": {
+    "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri Part 2",
+    "create_date": "2025-03-27",
+    "update_date": "2025-04-12T07:24:58.652Z",
+    "user": 1,
+    "description": "Several months have passed since the infamous Ginza Incident, with tensions between the Empire and JSDF escalating in the vast and mysterious \"Special Region\" over peace negotiations. The greed and curiosity of the global powers have also begun to grow, as reports about the technological limitations of the magical realm's archaic civilizations come to light. \n\nMeanwhile, Lieutenant Youji Itami and his merry band of female admirers struggle to navigate the complex political intrigue that plagues the Empire's court. Despite her best efforts, Princess Piña Co Lada faces difficulties attempting to convince her father that the JSDF has no intention of conquering their kingdom. Pressured from both sides of the Gate, Itami must consider even more drastic measures to fulfill his mission.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/31637",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "done",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/8/77382.webp",
+    "image_upload": "",
+    "rate": 7.71,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "military"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      289
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 291,
+  "fields": {
+    "title": "Youjuu Toshi",
+    "create_date": "2025-03-27",
+    "update_date": "2025-03-27T11:55:32.493Z",
+    "user": 1,
+    "description": "Renzaburou Taki appears to be a regular salaryman, but in reality, he is a member of the Black Guards—a secret organization that maintains the fragile harmony between the human and demon realms. As the time to renew the peace treaty approaches, Taki is tasked with guarding the important human mystic Giuseppe Mayart, with the help of a demon woman named Makie. However, this is easier said than done; while a dangerous faction of demons has turned to terrorism in hopes of destroying the unity between the two realms, Giuseppe wants nothing more than to sneak off and fool around with women.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/1107/Youjuu_Toshi",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 1107,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/2/50021.jpg",
+    "image_upload": "",
+    "rate": 6.44,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Horror"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 292,
+  "fields": {
+    "title": "Ishura",
+    "create_date": "2025-03-27",
+    "update_date": "2025-03-27T12:17:05.285Z",
+    "user": 1,
+    "description": "After the demise of the demon king, the resulting power vacuum has broken the balance of the world. Eager to claim this power for themselves, self-proclaimed demon kings from various worlds assemble in the New Principality of Lithia to fight for it. Among them, master swordsman Soujirou Yagyuu seeks to take this coveted position for himself. Joined by Tooi Kagizume no Yuno, a young girl he saved from an army of golems that destroyed her city, Soujirou enters Lithia to battle his way to the title.\n\nAt the same time, the leaders of the Aureatia Kingdom seek to destabilize Lithia by launching bandits after the convoys of merchandise transiting through the principality. Enraged, Imashime of Taren, the founder of Lithia and defector from Aureatia, sends vicious thief Kasasagi no Dakai to investigate the origin of these attacks. With war on the brink of eruption, no one can predict what influence the contenders for the demon king's throne will have on the coming conflict.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/54449/Ishura",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 54449,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1364/140875.webp",
+    "image_upload": "",
+    "rate": 6.68,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      293
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 293,
+  "fields": {
+    "title": "Ishura 2nd Season",
+    "create_date": "2025-03-27",
+    "update_date": "2025-03-27T12:17:05.281Z",
+    "user": 1,
+    "description": "Second season of Ishura.",
+    "link": "https://myanimelist.net/anime/58484",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1699/146979.jpg",
+    "image_upload": "",
+    "rate": 7.23,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      292
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 297,
+  "fields": {
+    "title": "Hakata Tonkotsu Ramens",
+    "create_date": "2025-03-27",
+    "update_date": "2025-04-03T21:27:39.399Z",
+    "user": 1,
+    "description": "Although the city of Fukuoka might look relatively peaceful at first glance, in actuality it houses a thriving mixture of dangerous individuals such as killers, detectives, and professional revenge seekers right beneath its surface. Among their number is Zenji Banba, a laidback and observant detective who is investigating the work of other hitmen companies in the area. However, Banba might not be the only one with a bone to pick with these organizations, as Xianming Lin, a crossdressing male hitman in the employ of one such company begins getting fed up with his lack of jobs and pay.\n\nOne day, after Lin's current target commits suicide before the hitman could reach him, his company refuses to pay him even half the amount they were originally supposed to for the assassination. Frustrated, Lin requests another mission and is offered the job of taking out Banba, whom his organization believes has been interfering with their business. However, when Banba arrives at his home and finds the hitman inside, Lin surprisingly doesn't even attempt to kill him. Instead, he offers the detective another option: to join him and form a team. With the offer on the table, exactly how will Banba respond, and just what plans does Lin have in store for the underground world of Fukuoka?\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/35889/Hakata_Tonkotsu_Ramens",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 35889,
+    "status": "done",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1718/91097.jpg",
+    "image_upload": "",
+    "rate": 7.36,
+    "user_rate": 7.5,
+    "genres": [
+      "Action",
+      "Mystery"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 299,
+  "fields": {
+    "title": "Himouto! Umaru-chan",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:01:58.514Z",
+    "user": 1,
+    "description": "People are not always who they appear to be, as is the case with Umaru Doma, the perfect high school girl—that is, until she gets home! Once the front door closes, the real fun begins. When she dons her hamster hoodie, she transforms from a refined, over-achieving student into a lazy, junk food-eating otaku, leaving all the housework to her responsible older brother Taihei. Whether she's hanging out with her friends Nana Ebina and Kirie Motoba, or competing with her self-proclaimed \"rival\" Sylphinford Tachibana, Umaru knows how to kick back and have some fun!\n\nHimouto! Umaru-chan is a cute story that follows the daily adventures of Umaru and Taihei, as they take care of—and put up with—each other the best they can, as well as the unbreakable bonds between friends and siblings.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/28825/Himouto_Umaru-chan",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 28825,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/12/75086.jpg",
+    "image_upload": "",
+    "rate": 7.1,
+    "user_rate": null,
+    "genres": [
+      "Comedy",
+      "School",
+      "Seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      300,
+      301,
+      302
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 300,
+  "fields": {
+    "title": "Himouto! Umaru-chan OVA",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:01:58.504Z",
+    "user": 1,
+    "description": "Episodes included in the manga's seventh and tenth volumes.",
+    "link": "https://myanimelist.net/anime/30991",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/7/76826.webp",
+    "image_upload": "",
+    "rate": 7.24,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "school",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      299,
+      301,
+      302
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 301,
+  "fields": {
+    "title": "Himouto! Umaru-chanS",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:01:58.507Z",
+    "user": 1,
+    "description": "These shorts, included in the Blu-ray and DVD releases, take place in a timeline with multiple Umaru-chans.",
+    "link": "https://myanimelist.net/anime/31234",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/13/75074.webp",
+    "image_upload": "",
+    "rate": 7.03,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      299,
+      300,
+      302
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 302,
+  "fields": {
+    "title": "Himouto! Umaru-chan R",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:01:58.511Z",
+    "user": 1,
+    "description": "Umaru Doma is a model student who has a hidden side: when she gets home each day, she puts on her hamster hoodie and turns into a sluggish otaku fond of junk food. As Umaru continues these daily antics, the friendship between her and her classmates—Nana Ebina, Kirie Motoba, and Sylphinford Tachibana—deepens, and more and more interesting events begin to unfold.\n\nOf course, these events give rise to numerous questions. What did Nana ask of Umaru's brother Taihei? Who is the mysterious girl with the diamond hairpin? And most important of all: why does this girl seem to know Umaru? These questions and more will be answered in Himouto! Umaru-chan R!\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/35376",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/10/89671.jpg",
+    "image_upload": "",
+    "rate": 7.32,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "school",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      299,
+      300,
+      301
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 303,
+  "fields": {
+    "title": "Baccano!",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:03:24.912Z",
+    "user": 1,
+    "description": "During the early 1930s in Chicago, the transcontinental train, Flying Pussyfoot, is starting its legendary journey that will leave a trail of blood all over the country. At the same time in New York, the ambitious scientist Szilard and his unwilling aide Ennis are looking for missing bottles of the immortality elixir. In addition, a war between the mafia groups is getting worse. On board the Advena Avis, in 1711, alchemists are about to learn the price of immortality.\n\nBased on the award-winning light novels of the same name, Baccano! follows several events that initially seem unrelated, both in time and place, but are part of a much bigger story—one of alchemy, survival, and immortality. Merging these events together are the kindhearted would-be thieves, Isaac and Miria, connecting various people, all of them with their own hidden ambitions and agendas, and creating lifelong bonds and consequences for everyone involved.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/2251/Baccano",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 2251,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/3/14547.jpg",
+    "image_upload": "",
+    "rate": 8.35,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Historical",
+      "Mystery",
+      "Supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      304
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 304,
+  "fields": {
+    "title": "Baccano! Specials",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T02:03:24.909Z",
+    "user": 1,
+    "description": "In 1929, Ladd Russo spared Graham Specter's life and earned his unwavering loyalty. Three years later, Graham is infuriated upon learning that Ladd was pushed off the train after the events aboard the Flying Pussyfoot. As a man of bizarre yet passionate philosophies, he plans to make an offering to Ladd by kidnapping Eve Genoard and subsequently capturing Jacuzzi Splot, who has been living in the Genoard mansion with his gang.\n\nMeanwhile, Jacuzzi and his gang take in an unfamiliar woman, Elmer C. Albatross pays a visit to the prison to meet an old friend, and Czeslaw Meyer runs into the man he hoped he would never see again.\n\nThese seemingly separate storylines merge, tying up several loose ends and revealing the whole truth of the anomaly that occurred aboard the Advena Avis in 1711.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/3901",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/7/9129.jpg",
+    "image_upload": "",
+    "rate": 8.08,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "historical",
+      "mystery",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      303
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 305,
+  "fields": {
+    "title": "Isekai Quartet",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T20:45:02.925Z",
+    "user": 1,
+    "description": "It is a normal day; everyone from deranged military girl Tanya Degurechaff and 16-year-old isekai protagonist Satou Kazuma to expansionist overlord Ainz Ooal Gown and demon sisters Rem and Ram go on with their daily lives. Suddenly, a conspicuous red button begging to be pressed appears before them. Overcome by curiosity, the otherworldly characters push the button, sending them to an unfamiliar world.\n\nWith no way of escaping, the characters must lead a normal school life and make acquaintances with the others. One thing is certain: the classroom full of fan-favorite eccentric personalities never gets boring!\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/38472/Isekai_Quartet",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 38472,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1965/99667.jpg",
+    "image_upload": "",
+    "rate": 7.37,
+    "user_rate": null,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Parody"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      323,
+      324
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 323,
+  "fields": {
+    "title": "Isekai Quartet Movie: Another World",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T20:45:02.911Z",
+    "user": 1,
+    "description": "The class arrives in another world and they encounter a desolate environment dominated by a rampaging magical automaton.",
+    "link": "https://myanimelist.net/anime/41567",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1222/122000.webp",
+    "image_upload": "",
+    "rate": 7.47,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "fantasy",
+      "parody"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      305,
+      324
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 324,
+  "fields": {
+    "title": "Isekai Quartet 2",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T20:45:02.916Z",
+    "user": 1,
+    "description": "Despite completing all the tasks given to them, Ainz Ooal Gown, Tanya Degurechaff, Kazuma Satou, Subaru Natsuki, and the other members of Class 2 are surprised to find out that their role as students is far from over. With no means of returning home, the class of eccentric personalities is still mysteriously stuck in the unfamiliar world. Although, as they are becoming quite fond of each other, spending more time together does not sound that bad.\n\nWith the unexpected arrival of new transfer students, the comedic antics of our beloved characters continue to grow. Thus, their bizarre yet nonchalant school life continues.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/39988",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1030/103383.webp",
+    "image_upload": "",
+    "rate": 7.36,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "fantasy",
+      "parody"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      305,
+      323
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 326,
+  "fields": {
+    "title": "Shinchou Yuusha: Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
+    "create_date": "2025-03-30",
+    "update_date": "2025-04-01T13:38:12.308Z",
+    "user": 1,
+    "description": "There is a popular saying: \"you can never be too careful.\" It is very important to prepare for every situation you may face, even if it seems like an unnecessary waste of time. Also, in games like RPGs, it is good to exceed the level of your enemies to achieve total victory.\n\nThese words describe Seiya Ryuuguuin a little too perfectly. After being summoned by the goddess Ristarte to save the world of Gaeabrande from destruction, the hero prepares himself for his noble journey. While this might be normal, he spends a very long time training himself, despite having overpowered stats. He fights weak enemies using his strongest skills and buys excessive amounts of supplies and potions—all to stay safe.\n\nWhile his attitude may be a bit annoying, it might just be the saving grace of Gaeabrande, especially considering that it is a world where the forces of evil dominate each and every expectation.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/38659/Shinchou_Yuusha__Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_Sugiru",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 38659,
+    "status": "done",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1715/103419.webp",
+    "image_upload": "",
+    "rate": 7.47,
+    "user_rate": 7.5,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Parody"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 331,
+  "fields": {
+    "title": "Black Bullet",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T20:55:52.389Z",
+    "user": 1,
+    "description": "In the year 2021, a parasitic virus known as \"Gastrea\" infects humans and turns them into monsters. What is left of mankind now lives within the Monolith walls, walls that are made of Varanium, the only material that can hurt Gastrea.\n\nTo counter the threat that the Gastrea pose, \"Cursed Children\"—female children whose bodies contain trace amounts of the virus which grant them superhuman abilities—officially called Initiators by the Tendo Civil Security, are given partners called Promoters, people who work to guide and protect the young Initiators. These teams of two are sent out on missions to fight the monsters created by the Gastrea virus and keep them at bay. \n\nBlack Bullet revolves around the team of Enju Aihara, an Initiator, and Satomi Rentaro, a Promoter, as they go on missions to fight the growing threat of Gastrea in their hometown of Tokyo.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/20787/Black_Bullet",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 20787,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1292/94693.jpg",
+    "image_upload": "",
+    "rate": 7.07,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      332
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 332,
+  "fields": {
+    "title": "Black Bullet: Tenchuu＊Girls",
+    "create_date": "2025-03-30",
+    "update_date": "2025-03-30T20:55:52.385Z",
+    "user": 1,
+    "description": "Short special featuring 'Tenchu Girls', a group of characters from the TV series.\nIncluded in the 4th volume of the Blu-ray/DVD releases.",
+    "link": "https://myanimelist.net/anime/30100",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1734/122725.jpg",
+    "image_upload": "",
+    "rate": 6.08,
+    "user_rate": null,
+    "genres": [
+      "fantasy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      331
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 333,
+  "fields": {
+    "title": "D.Gray-man",
+    "create_date": "2025-04-02",
+    "update_date": "2025-04-02T22:35:19.627Z",
+    "user": 1,
+    "description": "Losing a loved one is so painful that one may sometimes wish to be able to resurrect them—a weakness that the enigmatic Millennium Earl exploits. To make his mechanical weapons known as \"Akuma,\" he uses the souls of the dead that are called back. Once a soul is placed in an Akuma, it is trapped forever, and the only way to save them is to exorcise them from their vessel using the Anti-Akuma weapon, \"Innocence.\"\n \nAfter spending three years as the disciple of General Cross, Allen Walker is sent to the Black Order—an organization comprised of those willing to fight Akuma and the Millennium Earl—to become an official Exorcist. With an arm as his Innocence and a cursed eye that can see the suffering souls within an Akuma, it's up to Allen and his fellow Exorcists to stop the Millennium Earl's ultimate plot: one that can lead to the destruction of the world.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/1482/DGray-man",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 1482,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/13/75194.jpg",
+    "image_upload": "",
+    "rate": 8.0,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      334
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 334,
+  "fields": {
+    "title": "D.Gray-man Hallow",
+    "create_date": "2025-04-02",
+    "update_date": "2025-04-02T22:35:19.623Z",
+    "user": 1,
+    "description": "Despite the recent Akuma attack, the members of the Black Order are in high spirits as they set about moving to a new base. Immediately upon his arrival, however, Allen Walker is suddenly called by the Central Agency and has his arm forcefully sealed by the Order. He is then led to a surprising meeting with his master, General Cross Marian, who reveals staggering secrets surrounding the enigmatic 14th Noah.\n\nA phantom thief incident, the arrival of a mysterious group of Exorcists, the death of an important comrade, and an all-out battle against the Noah Family—just what does this mean for Allen, Yuu Kanda, and the rest of the Order? This is but the beginning of a series of strange, seemingly unconnected events that lead to something far greater.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/32370",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/12/80766.webp",
+    "image_upload": "",
+    "rate": 7.68,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      333
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 335,
+  "fields": {
+    "title": "Seitokai Yakuindomo",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-08T18:31:07.406Z",
+    "user": 1,
+    "description": "Tsuda Takatoshi is about to begin his first year in Ousai Academy.  His decision to enter Ousai was based upon it being close to his home and he paid no heed to the fact he'd be among the first boys to enter the recently gender-integrated school.<br><br>\nOn his first trip to school, Takatoshi is surrounded by girls; the train has nothing but girls, the walk to school has nothing but girls and once he finally arrives he is approached by a group of girls and summarily appointed vice-president of the student council and, as expected, he is the only boy there.<br><br>\nNow Takatoshi finds himself surrounded by crazy girls who do nothing but horrify him with their candid conversations about feminine hygiene products and, what's worse, assume he's the worst kind of man, the kind who doesn't clean himself and watches porn all day long.",
+    "link": "https://anilist.co/anime/8675/Seitokai-Yakuindomo",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 8675,
+    "status": "done",
+    "special": false,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8675-5H2QSLvXA7bH.jpg",
+    "image_upload": "",
+    "rate": 7.3,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "slice of life"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      338,
+      339,
+      340,
+      341
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 338,
+  "fields": {
+    "title": "Seitokai Yakuindomo＊",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T07:18:16.762Z",
+    "user": 1,
+    "description": "The second season of Seitokai Yakuindomo.",
+    "link": "https://anilist.co/anime/20448/Seitokai-Yakuindomo",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 20847,
+    "status": "future",
+    "special": false,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20448-nJph1HFaaL2u.jpg",
+    "image_upload": "",
+    "rate": 7.5,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "slice of life"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      335,
+      339,
+      340,
+      341
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 339,
+  "fields": {
+    "title": "Seitokai Yakuindomo OVA",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-15T12:58:58.957Z",
+    "user": 1,
+    "description": "It is the start of Takatoshi Tsuda's second year as the put-upon vice president of the student council and his sister Kotomi is entering school as a first year. New friends and double entendres are made.\n<br><br>\n(Source: Anime News Network)",
+    "link": "https://anilist.co/anime/10119/",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 10119,
+    "status": "current",
+    "special": false,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10119.jpg",
+    "image_upload": "",
+    "rate": 7.5,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "slice of life"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      335,
+      338,
+      340,
+      341
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 340,
+  "fields": {
+    "title": "Seitokai Yakuindomo",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T07:18:50.399Z",
+    "user": 1,
+    "description": "Tsuda Takatoshi, a new student in the recently gender-integrated high school, is asked to join the student council, as the vice president. Thus begins his days as the only normal person in among the 4 member student council officers...\n<br><br>\n<i>Note: The first 15 chapters were published in Magazine Special. It switched to Weekly Shounen Magazine starting with Ch. 16, with the chapter count being reset. This entry still includes the first 15 chapters from Magazine Special.</i>",
+    "link": "https://anilist.co/manga/44110/",
+    "type": "anime&manga",
+    "subtype": "manga",
+    "mal_id": 14110,
+    "status": "future",
+    "special": false,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx44110-2cQaahXVNLag.png",
+    "image_upload": "",
+    "rate": 7.7,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "ecchi",
+      "romance",
+      "slice of life"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      335,
+      338,
+      339,
+      341
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 341,
+  "fields": {
+    "title": "Seitokai Yakuindomo＊ OVA",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T07:18:49.327Z",
+    "user": 1,
+    "description": "OVAs of Seitokai Yakuindomo* which were either bundled with the limited editions of the manga volumes or as standalone OVAs.",
+    "link": "https://anilist.co/anime/20826/",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 26123,
+    "status": "future",
+    "special": false,
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20826.jpg",
+    "image_upload": "",
+    "rate": 7.7,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "slice of life"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      335,
+      338,
+      339,
+      340
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 342,
+  "fields": {
+    "title": "Totsukuni no Shoujo",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T10:55:39.018Z",
+    "user": 1,
+    "description": "Let not an Outsider touch thee,\nLest thou shalt be cursed forever.\n\nOnce upon a time, in a land far away that was divided into two realms...\nThe Outside was roamed by teratomorphic creatures who had the power to curse whoever they touched. Humans could live safely only in the Inside. But when a lost little girl from the Inside named Shiva, and a demonic beast-looking Outsider simply known as \"Teacher\" initiate a quiet coexistence on the same side of the forest, their bond seems to transcend their incompatible natures. It is the beginning of a folktale about two outcasts -one human, one inhuman- who linger in the hazy twilight that separates night from day.\n\n(Source: Production I.G)",
+    "link": "https://myanimelist.net/anime/39495/Totsukuni_no_Shoujo",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 39495,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1675/104684.webp",
+    "image_upload": "",
+    "rate": 7.56,
+    "user_rate": null,
+    "genres": [
+      "Shounen",
+      "Supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      343
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 343,
+  "fields": {
+    "title": "Totsukuni no Shoujo (2022)",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T10:55:39.015Z",
+    "user": 1,
+    "description": "OVA bundled with the special edition of the manga's side story.",
+    "link": "https://myanimelist.net/anime/48405",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1957/113267.webp",
+    "image_upload": "",
+    "rate": 7.56,
+    "user_rate": null,
+    "genres": [
+      "shounen",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      342
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 344,
+  "fields": {
+    "title": "Grimm Kumikyoku",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T11:00:31.272Z",
+    "user": 1,
+    "description": "Six stories will be developed as an anthology with a new interpretation of Grimm's fairy tales, incorporating dark elements.\n\n(Source: MU, translated)",
+    "link": "https://myanimelist.net/anime/49210/Grimm_Kumikyoku",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 49210,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1095/142224.jpg",
+    "image_upload": "",
+    "rate": 6.75,
+    "user_rate": null,
+    "genres": [
+      "Fantasy",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 345,
+  "fields": {
+    "title": "Akiba Meido Sensou",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-05T13:29:09.525Z",
+    "user": 1,
+    "description": "The innocent Nagomi Wahira has always admired the cute girls serving at maid cafes. Hoping to fulfill her dream of becoming one, she moves to Akihabara to work at the maid cafe Ton Tokoton.\n\nNagomi's first day seems completely normal—until she has to run an \"errand\" at a rival maid cafe along with her fellow recruit, the mature Ranko Mannen. There, things quickly go south, and Nagomi soon gets her first taste of Akihabara's violent maid wars. As she watches Ranko calmly battle her way through a horde of gun- and knife-wielding maids, Nagomi realizes that maid cafes are drastically unlike what she had envisioned.\n\nWhile struggling to reconcile her expectations with the harsh reality she finds herself in, Nagomi searches for the enjoyment she once saw in the lives of maids.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/52193/Akiba_Meido_Sensou",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 52193,
+    "status": "done",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1217/129604.jpg",
+    "image_upload": "",
+    "rate": 7.58,
+    "user_rate": 8.5,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 346,
+  "fields": {
+    "title": "Uchouten Kazoku",
+    "create_date": "2025-04-05",
+    "update_date": "2025-04-05T13:57:51.261Z",
+    "user": 1,
+    "description": "Kyoto has been populated by groups of tanuki and tengu for years, living alongside humans who are oblivious to the existence of these creatures. Yasaburou Shimogamo is the third son of an influential tanuki family who spends his carefree days taking care of an old tengu, observing humans through his ability to shapeshift, and dealing with the mysterious woman named Benten.\n\nBehind the peace and tranquility, however, is a painful memory from long ago as Yasaburou's father, head of the tanuki community, was killed and eaten by a group of humans known as the Friday Fellows. Uchouten Kazoku follows the trials and tribulations of the Shimogamo brothers as they struggle to avoid their own grisly demise while coming ever closer to unraveling the truth behind their father's death.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/17909/Uchouten_Kazoku",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 17909,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/3/85433.webp",
+    "image_upload": "",
+    "rate": 7.82,
+    "user_rate": null,
+    "genres": [
+      "Drama",
+      "Supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      347
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 347,
+  "fields": {
+    "title": "Uchouten Kazoku 2",
+    "create_date": "2025-04-05",
+    "update_date": "2025-04-05T13:57:51.254Z",
+    "user": 1,
+    "description": "After uncovering the truth behind their father's untimely death, life for the four Shimogamo brothers returns to relative peace with each trying to live up to their father's greatness in their own way. For the eldest, Yaichirou, who aims to become the next Trick Magister and leader of the tanuki society, it starts with reinstating the popular shogi tournament. For Yajirou, it is restoring his former shapeshifting abilities, whilst little Yashirou is content with continuing his work at the family’s factory. But for the third son, Yasaburou, it simply means embracing the \"fool's blood\" he inherited from his father and living a carefree but interesting life. This, of course, includes hunting for the mysterious and elusive snake-like creature known as a tsuchinoko, and causing ripples of trouble at every turn.\n\nHowever, these ripples threaten to turn into waves with the return of Nidaime, the estranged son of the brothers' tengu teacher, Professor Akadama. Nidaime bears a grudge against not only his father, but his father's apprentice Benten as well. His loyalties suddenly brought into question, Yasaburou must use his tanuki wit to appease all sides without getting caught in the crossfire, before the delicate balance between human, tengu, and tanuki is overthrown and all hell breaks loose.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/34076",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/8/85354.webp",
+    "image_upload": "",
+    "rate": 8.07,
+    "user_rate": null,
+    "genres": [
+      "drama",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      346
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 348,
+  "fields": {
+    "title": "Hikaru ga Shinda Natsu",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:05:45.898Z",
+    "user": 1,
+    "description": "Best friends Yoshiki and Hikaru have been stuck together like glue for most of their lives. Living in a small village and being the only children their age, the two boys find solace in each other's company. Their friendship seems picturesque at first glance, but Yoshiki has noticed a shift in Hikaru's demeanor ever since one fateful summer.\n\nThe \"Hikaru\" that sits beside him now is nothing like his friend. Despite his physical appearance and memories remaining exactly the same, Yoshiki knows something is amiss and that the Hikaru he once knew is gone. When he brings this up, Hikaru partially transforms into an otherworldly being, threatening to kill Yoshiki if he cannot accept it—while also professing its love for him.\n\nWracked with grief and unable to let go of his best friend, Yoshiki struggles to move on with his life as he finds himself getting closer to the new Hikaru. At the same time, strange occurrences begin to plague their village, bringing unsettling chaos.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/58913/Hikaru_ga_Shinda_Natsu",
+    "type": "anime&manga",
+    "subtype": null,
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1468/146663l.jpg",
+    "image_upload": "",
+    "rate": null,
+    "user_rate": null,
+    "genres": [],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 349,
+  "fields": {
+    "title": "Sentouin, Haken shimasu!",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:20:40.146Z",
+    "user": 1,
+    "description": "As a chief operative of the villainous Kisaragi Corporation, Sentouin Roku-gou receives orders to help the organization conquer the entire known universe. Tasked with infiltrating the kingdom of Grace—a mission that could change the fate of the world—Roku-gou mistakenly believes that his skills as a combatant are superb, fuelling his arrogant attitude. To ensure the success of the mission, Alice Kisaragi, an exceptional android with a youthful appearance named after the company itself, is assigned to be Roku-gou's travel companion. \n\nUpon their arrival at the outskirts of the kingdom, Alice and Roku-gou encounter Snow, the commander of the country's royal guard. Snow leads the pair to a broken legendary artifact, and Roku-gou seizes the opportunity for a long-awaited promotion at his company and changes the recitation for the sacred ritual to an embarrassing phrase. As punishment, the princess of the kingdom forces Roku-gou to become an honorary knight, fulfilling part of his mission. Having infiltrated the kingdom's inner circle, Roku-gou must now help his new employer fight against the Demon Lord's Army, all while perpetuating evil deeds as a combatant of the Kisaragi Corporation. \n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/41456/Sentouin_Haken_shimasu",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 41456,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1444/115118.jpg",
+    "image_upload": "",
+    "rate": 7.14,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 350,
+  "fields": {
+    "title": "Air",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:24:33.016Z",
+    "user": 1,
+    "description": "Yukito Kunisaki is on a journey in search of the Winged Maiden who was bound to the sky centuries ago, after hearing an old childhood tale from his mother. As Yukito shows his puppet show to people in an attempt to make some money, he finds himself in a small town in which he did not expect to stay very long. However, when he meets an unusual girl named Misuzu, things take a drastic turn as he is invited to stay with her.\n\nBy staying in the quaint town, Yukito soon becomes friends with the locals. As he gets to know them better, he learns of their problems and decides to help, putting his search for the Winged Maiden on hold. With his search on hold, and his growing attachment to Misuzu and the small town, will Yukito ever find the Winged Maiden, or is she closer than he thought?\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/101/Air",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 101,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1825/146531.jpg",
+    "image_upload": "",
+    "rate": 7.27,
+    "user_rate": null,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      351,
+      352,
+      353
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 351,
+  "fields": {
+    "title": "Air in Summer",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:24:32.993Z",
+    "user": 1,
+    "description": "Unwilling to move to a different shrine and leave her friends behind, Kanna escapes in the dead of night with her loyal bodyguard Ryuuya and confidant Uraha. Knowing their pursuers are not far behind, the three embark on a journey to locate Kanna's mother, who Kanna yearns to see after many years of separation. Amid the tensions, the trio explores the world outside the confines of the palace—serving as a tranquil yet temporary distraction from what is to come.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/656",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/2/82726.webp",
+    "image_upload": "",
+    "rate": 7.28,
+    "user_rate": null,
+    "genres": [
+      "comedy",
+      "drama",
+      "historical",
+      "romance",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      350,
+      352,
+      353
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 352,
+  "fields": {
+    "title": "Air Movie",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:24:32.997Z",
+    "user": 1,
+    "description": "Centuries ago, Kanna, a princess and the last of a winged race, was held prisoner in a castle as she was feared by the rest of the world. However, when she met a soldier named Ryuuya, she fell in love with him and told him of her wishes to see the outside world and to find her mother. Ryuuya attempted to fulfill these wishes. However, his efforts were in vain as Kanna was sealed in the sky through magic and cursed to be in pain for all eternity.\n\nHundreds of years later, Yukito, a decendant of Ryuuya, comes to a quiet town one week before their annual festival with hopes that he can make some money. However, when he meets an unusual girl called Misuzu, he is reminded of what his mother once told him—\"When you go out on your journey, if you find the winged girl's re-incarnation, you must use your power to set her free.\"\n\nYukito and Misuzu's fates soon become intertwined with each other, with each developing feelings for the other. However when Yukito realizes Misuzu's connection to the past, he must decide on whether to leave, or to attempt to break the curse that has bound Kanna in centuries of pain.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/713",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/10/26507.webp",
+    "image_upload": "",
+    "rate": 7.21,
+    "user_rate": null,
+    "genres": [
+      "drama",
+      "romance",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      350,
+      351,
+      353
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 353,
+  "fields": {
+    "title": "Air Recap",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:24:33.001Z",
+    "user": 1,
+    "description": "A recap of Air. It was also included on its own DVD release, separate from the original show's DVD/BD releases.",
+    "link": "https://myanimelist.net/anime/36032",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/12/87100.webp",
+    "image_upload": "",
+    "rate": 6.26,
+    "user_rate": null,
+    "genres": [
+      "drama",
+      "romance",
+      "supernatural"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      350,
+      351,
+      352
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 357,
+  "fields": {
+    "title": "Arslan Senki (TV)",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.536Z",
+    "user": 1,
+    "description": "The year is 320. Under the rule of the belligerent King Andragoras III, the Kingdom of Pars is at war with the neighboring empire, Lusitania. Though different from his father in many aspects, Arslan, the young prince, sets out to prove his valor on the battlefield for the very first time. However, when the king is betrayed by one of his most trusted officials, the Parsian army is decimated and the capital city of Ecbatana is sieged. With the army in shambles and the Lusitanians out for his head, Arslan is forced to go on the run. With a respected general by his side, Daryun, Arslan soon sets off on a journey in search of allies that will help him take back his home.\n\nHowever, the enemies that the prince faces are far from limited to just those occupying his kingdom. Armies of other kingdoms stand ready to conquer Ecbatana. Moreover, the mastermind behind Lusitania's victory, an enigmatic man hiding behind a silver mask, poses a dangerous threat to Arslan and his company as he possesses a secret that could jeopardize Arslan's right to succession.\n\nWith the odds stacked against him, Arslan must find the strength and courage to overcome these obstacles, and allies who will help him fight in the journey that will help prepare him for the day he becomes king.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/28249/Arslan_Senki_TV",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 28249,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1168/148973.webp",
+    "image_upload": "",
+    "rate": 7.65,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Historical",
+      "Military",
+      "Shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      359,
+      360,
+      361,
+      362,
+      363
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 359,
+  "fields": {
+    "title": "Arslan Senki (TV): Fuujin Ranbu - Arsen 4-koma Gekijou",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.510Z",
+    "user": 1,
+    "description": "Bundled with the Blu-ray/DVD volumes of Arslan Senki (TV): Fuujin Ranbu.",
+    "link": "https://myanimelist.net/anime/36498",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/7/88122.jpg",
+    "image_upload": "",
+    "rate": 6.31,
+    "user_rate": null,
+    "genres": [
+      "comedy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      357,
+      360,
+      361,
+      362,
+      363
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 360,
+  "fields": {
+    "title": "Arslan Senki (TV): Arsen 4-koma Gekijou",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.514Z",
+    "user": 1,
+    "description": "Bundled with the Blu-ray/DVD Volumes of Arslan Senki (TV).",
+    "link": "https://myanimelist.net/anime/30953",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/7/74496.jpg",
+    "image_upload": "",
+    "rate": 6.7,
+    "user_rate": null,
+    "genres": [
+      "comedy"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      357,
+      359,
+      361,
+      362,
+      363
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 361,
+  "fields": {
+    "title": "Arslan Senki (TV): Tsuioku no Shou - Dakkan no Yaiba",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.519Z",
+    "user": 1,
+    "description": "Arslan Senki (TV): Dakkan no Yaiba retells the events of the series' first 13 episodes, summarizing the events that transpired from Arslan's escape with Daryun, to their time in the Peshawar Citadel.",
+    "link": "https://myanimelist.net/anime/31128",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/11/74848.jpg",
+    "image_upload": "",
+    "rate": 6.57,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "historical",
+      "military"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      357,
+      359,
+      360,
+      362,
+      363
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 362,
+  "fields": {
+    "title": "Arslan Senki (TV): Fuujin Ranbu",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.523Z",
+    "user": 1,
+    "description": "Continuing on his quest to retake Ecbatana, Prince Arslan and his company march toward the city. But upon receiving news that the neighboring Kingdom of Turan is launching an assault on the Parsian stronghold at Peshawar Citadel, the prince is forced to turn back in order to defend the fortress. Amid holding off the invading forces, the Parsian army is met by an unexpected visitor.\n\nAs Arslan returns to Peshawar, Prince Hermes takes a slight detour from his clash against his cousin to search for the legendary sword Rukhnabad, which would grant him the right to rule and take back what he believes is rightfully his. However, after unearthing the lost artifact, the blade is stolen by the Temple Knights of Lusitania, prompting the masked warrior to give chase. Meanwhile in Ecbatana, the captive King Andragoras III finds an opportunity to strike and begins to make his move.\n\nAs the separate sides of the Parsian royal conflict clash, Arslan's right to the throne falls under attack. But no matter the obstacles in their way, the young prince and his loyal band of warriors charge forward to restore Pars to its former glory.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/31821",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1395/148975.webp",
+    "image_upload": "",
+    "rate": 7.5,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "historical",
+      "military",
+      "shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      357,
+      359,
+      360,
+      361,
+      363
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 363,
+  "fields": {
+    "title": "Arslan Senki (TV) Gaiden",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:07:04.528Z",
+    "user": 1,
+    "description": "It has been announced that Hiromu Arakawa's Arslan Senki manga will bundle OVAs in the fifth and sixth volumes, to be released on May 9 and November 9 respectively. The first OVA will include an original story supervised by Hiromu Arakawa, while the content of the second OVA has not been announced yet.",
+    "link": "https://myanimelist.net/anime/33254",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1219/96314.jpg",
+    "image_upload": "",
+    "rate": 6.99,
+    "user_rate": null,
+    "genres": [
+      "adventure",
+      "fantasy",
+      "historical",
+      "shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      357,
+      359,
+      360,
+      361,
+      362
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 364,
+  "fields": {
+    "title": "Drifters",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:09:03.751Z",
+    "user": 1,
+    "description": "At the Battle of Sekigahara in 1600, Toyohisa Shimazu is the rearguard for his retreating troops, and is critically wounded when he suddenly finds himself in a modern, gleaming white hallway. Faced with only a stoic man named Murasaki and hundreds of doors on both sides, Toyohisa is pulled into the nearest door and into a world completely unlike his own.\n\nThe strange land is populated by all manner of fantastical creatures, as well as warriors from different eras of Toyohisa's world who were thought to be dead. Quickly befriending the infamous warlord Nobunaga Oda and the ancient archer Yoichi Suketaka Nasu, Toyohisa learns of the political unrest tearing through the continent. Furthermore, they have been summoned as \"Drifters\" to fight against the \"Ends,\" people who are responsible for the creation of the Orte Empire and are trying to annihilate the Drifters. As the Ends grow more powerful, so does the Empire's persecution of elves and other demihumans. It is up to Toyohisa and his group of unconventional heroes to battle in a brand-new world war to help the Empire's subjects, while challenging the Ends protecting the land to claim it for themselves.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/31339/Drifters?q=drifter&cat=anime",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 31339,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/10/80271.webp",
+    "image_upload": "",
+    "rate": 7.88,
+    "user_rate": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Historical",
+      "Military",
+      "Samurai",
+      "Seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      365,
+      366,
+      367
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 365,
+  "fields": {
+    "title": "Drifters: Special Edition",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:09:03.738Z",
+    "user": 1,
+    "description": "Bundled with the fifth manga volume.",
+    "link": "https://myanimelist.net/anime/33032",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1141/97770.jpg",
+    "image_upload": "",
+    "rate": 7.63,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "historical",
+      "military",
+      "samurai",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      364,
+      366,
+      367
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 366,
+  "fields": {
+    "title": "Drifters: The Outlandish Knight",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:09:03.743Z",
+    "user": 1,
+    "description": "In the Orte Empire, Count Saint-Germi succeeds in his negotiations with the merchants of Gu-Binnen, putting an end to a decades-long war and securing the resources Orte desperately needs. Meanwhile, Naoshi Kanno bolsters his beastman forces with the addition of the cat tribe. After receiving an unexpected envoy from Rear Admiral Tamon Yamaguchi—a fellow Imperial Japanese Armed Forces member—Kanno, along with Scipio Africanus, sets out to meet a man he thought to be dead.\n\nAs his enemies prepare for war, the Black King mobilizes his army, giving command to a certain Drifter's sworn enemy.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/38360",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1987/97778.webp",
+    "image_upload": "",
+    "rate": 7.32,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "historical",
+      "military",
+      "samurai",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      364,
+      365,
+      367
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 367,
+  "fields": {
+    "title": "Drifters (OVA)",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T15:09:03.747Z",
+    "user": 1,
+    "description": "Despite the Ends’ attack on Verlina being successfully repelled, the war has not yet ended. With the monster armies regrouping, the Black King tightens his grasp on the already conquered territory. New conflicts erupt all across Orte, as its remaining forces struggle to retain control over long-oppressed demi-human races.\n\nWhile Ends grow more potent each day, Toyohisa Shimazu remains unconscious after heavy injuries suffered during the Battle of Verlina. Facing enemies on every side, humanity’s fate is still on a knife's edge.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/36480",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1027/97819.webp",
+    "image_upload": "",
+    "rate": 7.53,
+    "user_rate": null,
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "historical",
+      "military",
+      "samurai",
+      "seinen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      364,
+      365,
+      366
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 368,
+  "fields": {
+    "title": "Les Misérables: Shoujo Cosette",
+    "create_date": "2025-04-12",
+    "update_date": "2025-04-12T15:56:48.205Z",
+    "user": 1,
+    "description": "In 19th century France, a struggling single mother, Fantine, leaves her three-year-old daughter Cosette in the care of her new acquaintances, the Thernadiers. Unfortunately, Cosette's caretakers prove to be anything but loving, and the poor girl is subjected to repeated abuse and forced servitude. Still, she endures the torment in the hopes of seeing her mother once again.\n\nOne night, while doing errands for her host family, Cosette is assisted by an honorable stranger named Jean Valjean. After a brief conversation with the young girl, Jean acknowledges her as the type of person he has been seeking and rescues her from the clutches of the Thernadiers. They make their way to a nearby town where Cosette enjoys a new life thanks to her savior.\n\nUnder Jean's guidance, Cosette promises to help others with her newfound freedom. She pledges to heal the nation, ensuring that no one else suffers her fate. Though the road ahead is paved with tragedies left by the French Revolution, this idealistic girl will not rest until France is freed from poverty and suffering.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/1695/Les_Mis%C3%A9rables__Shoujo_Cosette",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 1695,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1/1695.jpg",
+    "image_upload": "",
+    "rate": 7.9,
+    "user_rate": null,
+    "genres": [
+      "Drama",
+      "Historical"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 372,
+  "fields": {
+    "title": "Anne Shirley",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T08:00:58.272Z",
+    "user": 1,
+    "description": "Life is not easy for Anne Shirley, an 11-year-old orphan with a vast imagination and a short temper. In a twist of fate, she gets taken into the Cuthbert house in Avonlea. The elderly occupants Marilla and Matthew Cuthbert were looking for a young boy to help in the fields, but they're in for quite a shock when they realize Anne is a girl.\n\nAdapted from the acclaimed classic by L. M. Montgomery, Akage no Anne portrays Anne's upbringing from 11 to 17 years of age and her encounters and separations with various people. Only time will tell what major decision Anne has to make that will change her life forever.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/60334",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 60334,
+    "status": "current",
+    "special": true,
+    "image": "https://cdn.myanimelist.net/images/anime/1674/147871.jpg",
+    "image_upload": "",
+    "rate": 7.72,
+    "user_rate": 8.5,
+    "genres": [
+      "Drama",
+      "Historical"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      373
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 373,
+  "fields": {
+    "title": "Akage no Anne",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T07:59:26.449Z",
+    "user": 1,
+    "description": "Life is not easy for Anne Shirley, an 11-year-old orphan with a vast imagination and a short temper. In a twist of fate, she gets taken into the Cuthbert house in Avonlea. The elderly occupants Marilla and Matthew Cuthbert were looking for a young boy to help in the fields, but they're in for quite a shock when they realize Anne is a girl.\n\nAdapted from the acclaimed classic by L. M. Montgomery, Akage no Anne portrays Anne's upbringing from 11 to 17 years of age and her encounters and separations with various people. Only time will tell what major decision Anne has to make that will change her life forever.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/283",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1365/115824.jpg",
+    "image_upload": "",
+    "rate": 7.82,
+    "user_rate": null,
+    "genres": [
+      "drama",
+      "historical"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      372
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 374,
+  "fields": {
+    "title": "Trillion Game",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-15T11:32:35.544Z",
+    "user": 1,
+    "description": "After socially awkward technology specialist Manabu \"Gaku\" Taira is saved from thugs by the outgoing Haru Tennouji, the two men find that they get along with each other well. Years later, Gaku, who is having a tough time getting a job due to his timidness, is convinced by Haru to apply for a position alongside him at Dragon Bank, one of Japan's largest IT companies.\n\nDuring their interviews, the company's board director, Kirika Kokuryuu, takes an interest in Haru and Gaku's contrasting personalities. However, Gaku does not get hired by the company, leading Haru to quit the job on his first day in protest. Nevertheless, they decide to embark on an ambitious plan of making a trillion dollars.\n\nIn order for their scheme to come to fruition, Haru and Gaku start looking for potential investors, but everyone rejects their extravagant idea. In spite of that, the two soon find themselves getting an offer from Kirika—and with her investment, they might just be able to reach their goal.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/56662/Trillion_Game",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 56662,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1081/147379.jpg",
+    "image_upload": "",
+    "rate": 7.54,
+    "user_rate": null,
+    "genres": [
+      "Drama",
+      "Seinen"
+    ],
+    "locked": true,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 375,
+  "fields": {
+    "title": "Kimi no Iro",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T12:28:10.216Z",
+    "user": 1,
+    "description": "Totsuko is a high school student with the ability to see the \"colors\" of others. Colors of bliss, excitement, and serenity, plus a color she treasures as her favorite. Kimi, a classmate at her school, gives off the most beautiful color of all. Although she does not play an instrument, Totsuko forms a band with Kimi and Rui, a quiet music enthusiast they meet at a used bookstore in a far corner of town. As they practice at an old church on a remote island, music brings them together, forming friendships and stirring affections. Will they discover their true \"colors\"?\n\n(Source: GKIDS, edited)",
+    "link": "https://myanimelist.net/anime/53747/Kimi_no_Iro",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 53747,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1971/142121.webp",
+    "image_upload": "",
+    "rate": 7.68,
+    "user_rate": null,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 376,
+  "fields": {
+    "title": "Alice to Therese no Maboroshi Koujou",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T12:28:29.063Z",
+    "user": 1,
+    "description": "In the small rural town of Mifuse, time has crawled to a standstill. After an explosion at the city's steel mill, the townspeople realize they are trapped in a mysterious stasis—cutting them off from the rest of the world. With a local elite quick to declare the situation a punishment from God, the community adopts a variety of superstitions to preserve the delicate balance of their circumstances until normalcy is restored.\n\nFor middle school student Masamune Kikuiri and the other young people of Mifuse, returning to the real world has become nothing more than an illusion. Their senses have gone numb, and it has been years since they have shown any signs of aging. Masamune feels like he has become accustomed to his insecurities and empty existence. However, one day, his classmate Mutsumi Sagami guides him to the fifth furnace of the steel mill, where she shows him a feral young girl who resembles a wolf. This encounter proves to be the impetus in casting a light of change that dispels the shadows that have become Mifuse's reality.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/49303/Alice_to_Therese_no_Maboroshi_Koujou",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 49303,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1429/137275.jpg",
+    "image_upload": "",
+    "rate": 7.23,
+    "user_rate": null,
+    "genres": [
+      "Drama"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": []
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 377,
+  "fields": {
+    "title": "Nige Jouzu no Wakagimi",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T12:28:47.712Z",
+    "user": 1,
+    "description": "Tokiyuki Houjou, a carefree eight-year-old noble, is content with the serene life in Kamakura and shows little regard for the serious responsibilities that come with his eventually succeeding his father as the next shogun. Instead of dedicating himself to rigorous training in swordsmanship or archery, Tokiyuki excels in the art of evasion, skillfully dodging his advisors and discovering perfect hiding spots. However, his peaceful existence is shattered when a sudden coup brutally wipes out his clan.\n\nOverwhelmed with guilt for being the sole survivor, Tokiyuki contemplates joining his family in death. However, his fate takes an abrupt turn when the enigmatic priest Yorishige Suwa suddenly shoves him onto a battlefield. Yorishige, who prophesies that Tokiyuki will one day become a great hero, leaves the boy with no choice but to navigate his way free of enemy soldiers. As Tokiyuki struggles to survive against these foes, he finds a new thrill in raising the stakes of his usual hide-and-seek games.\n\nWith a renewed sense of purpose and the promise of powerful allies from Yorishige, Tokiyuki vows to avenge his family—not through his capability to fight, but through his extraordinary talent for running away.\n\n[Written by MAL Rewrite]",
+    "link": "https://myanimelist.net/anime/54724/Nige_Jouzu_no_Wakagimi",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": 54724,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1386/140401.webp",
+    "image_upload": "",
+    "rate": 7.81,
+    "user_rate": null,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Historical",
+      "Samurai",
+      "Shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      379
+    ]
+  }
+},
+{
+  "model": "entertainment.entertainment",
+  "pk": 379,
+  "fields": {
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T12:28:47.708Z",
+    "user": 1,
+    "description": "Second season of Nige Jouzu no Wakagimi.",
+    "link": "https://myanimelist.net/anime/60059",
+    "type": "anime&manga",
+    "subtype": "anime",
+    "mal_id": null,
+    "status": "future",
+    "special": false,
+    "image": "https://cdn.myanimelist.net/images/anime/1437/145947.jpg",
+    "image_upload": "",
+    "rate": null,
+    "user_rate": null,
+    "genres": [
+      "adventure",
+      "comedy",
+      "historical",
+      "samurai",
+      "shounen"
+    ],
+    "locked": false,
+    "lock_reason": null,
+    "release_date": null,
+    "relatives": [
+      377
+    ]
+  }
+},
+{
   "model": "goals.goal",
   "pk": 8,
   "fields": {
     "title": "The Last Plan",
     "description": "The plan which will over every thing I have started.",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-16T16:35:21.712Z",
+    "update_date": "2025-04-09T17:07:16.856Z",
     "user": 1,
     "projects": [
       5,
@@ -7900,7 +9696,7 @@
   "fields": {
     "title": "Blender Tutorial for Complete Beginners - Part 1",
     "create_date": "2025-03-15",
-    "update_date": "2025-03-15T00:00:00Z",
+    "update_date": "2025-04-09T17:16:47.989Z",
     "user": 1,
     "description": null,
     "source": "youtube",
@@ -7908,7 +9704,7 @@
     "status": "current",
     "image": "https://i.ytimg.com/vi/B0J27sf9N1Y/hqdefault.jpg",
     "list": true,
-    "progress": 0
+    "progress": 35
   }
 },
 {
@@ -7947,23 +9743,6 @@
 },
 {
   "model": "learning_tracker.course",
-  "pk": 58,
-  "fields": {
-    "title": "Learn Microsoft Active Directory (ADDS) in 30mins",
-    "create_date": "2025-03-15",
-    "update_date": "2025-03-15T00:00:00Z",
-    "user": 1,
-    "description": null,
-    "source": "youtube",
-    "link": "https://youtu.be/85-bp7XxWDQ?si=Qd13xc92Pfrj4Hls",
-    "status": "current",
-    "image": "https://i.ytimg.com/vi/85-bp7XxWDQ/maxresdefault.jpg",
-    "list": false,
-    "progress": 0
-  }
-},
-{
-  "model": "learning_tracker.course",
   "pk": 59,
   "fields": {
     "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
@@ -7994,6 +9773,91 @@
     "image": "https://i.ytimg.com/vi/e2nkq3h1P68/maxresdefault.jpg",
     "list": false,
     "progress": 0
+  }
+},
+{
+  "model": "learning_tracker.course",
+  "pk": 61,
+  "fields": {
+    "title": "Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer",
+    "create_date": "2025-03-26",
+    "update_date": "2025-03-26T12:11:04.459Z",
+    "user": 1,
+    "description": "Learn how to implement RAG (Retrieval Augmented Generation) from scratch, straight from a LangChain software engineer. This Python course teaches you how to use RAG to combine your own custom data with the power of Large Language Models (LLMs).\n\n💻 Code: https://github.com/langchain-ai/rag-from-scratch\n\nIf you're completely new to LangChain and want to learn about some fundamentals, check out our guide for beginners: https://www.freecodecamp.org/news/beginners-guide-to-langchain/\n\n✏️ Course created by Lance Martin, PhD.\nLance on X: https://twitter.com/rlancemartin\n\n❤️ Try interactive AI courses we love, right in your browser: https://scrimba.com/freeCodeCamp-AI (Made possible by a grant from our friends at Scrimba)\n\n⭐️ Course Contents ⭐️\n⌨️ (0:00:00) Overview\n⌨️ (0:05:53) Indexing\n⌨️ (0:10:40) Retrieval\n⌨️ (0:15:52) Generation\n⌨️ (0:22:14) Query Translation (Multi-Query)\n⌨️ (0:28:20) Query Translation (RAG Fusion)\n⌨️ (0:33:57) Query Translation (Decomposition)\n⌨️ (0:40:31) Query Translation (Step Back)\n⌨️ (0:47:24) Query Translation (HyDE)\n⌨️ (0:52:07) Routing\n⌨️ (0:59:08) Query Construction\n⌨️ (1:05:05) Indexing (Multi Representation)\n⌨️ (1:11:39) Indexing (RAPTOR)\n⌨️ (1:19:19) Indexing (ColBERT)\n⌨️ (1:26:32) CRAG\n⌨️ (1:44:09) Adaptive RAG\n⌨️ (2:12:02) The future of RAG\n\n🎉 Thanks to our Champion and Sponsor supporters:\n👾 davthecoder\n👾 jedi-or-sith\n👾 南宮千影\n👾 Agustín Kussrow\n👾 Nattira Maneerat\n👾 Heather Wcislo\n👾 Serhiy Kalinets\n👾 Justin Hual\n👾 Otis Morgan \n👾 Oscar Rahnama\n\n--\n\nLearn to code for free and get a developer job: https://www.freecodecamp.org\n\nRead hundreds of articles on programming: https://freecodecamp.org/news",
+    "source": "youtube",
+    "link": "https://youtu.be/sVcwVQRHIc8?si=cLAxY5BvuVnSkK1a",
+    "status": "later",
+    "image": "https://i.ytimg.com/vi/sVcwVQRHIc8/maxresdefault.jpg",
+    "list": false,
+    "progress": 0
+  }
+},
+{
+  "model": "learning_tracker.course",
+  "pk": 62,
+  "fields": {
+    "title": "Prompt Engineering Specialization",
+    "create_date": "2025-03-28",
+    "update_date": "2025-03-28T01:48:31.790Z",
+    "user": 1,
+    "description": "",
+    "source": "coursera",
+    "link": "https://www.coursera.org/specializations/prompt-engineering",
+    "status": "later",
+    "image": "https://d15cw65ipctsrr.cloudfront.net/16/5e0361da674644abdad374133539d2/sparc_600.png",
+    "list": true,
+    "progress": 0
+  }
+},
+{
+  "model": "learning_tracker.course",
+  "pk": 63,
+  "fields": {
+    "title": "IBM AI Developer Professional Certificate",
+    "create_date": "2025-03-28",
+    "update_date": "2025-03-28T01:48:45.230Z",
+    "user": 1,
+    "description": "Job-ready AI skills in just 6 months, plus practical experience and an industry-recognized certification employers are actively looking for | The fundamental concepts, key terms, building blocks, and applications of AI, encompassing generative AI | How to build generative AI-powered apps and chatbots using various programming frameworks and AI technologies | How to use Python and Flask to develop and deploy AI applications on the web",
+    "source": "coursera",
+    "link": "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai",
+    "status": "later",
+    "image": "https://d15cw65ipctsrr.cloudfront.net/f3/2b860471b441f38659038b5ce24c1e/image-1-1-.png",
+    "list": true,
+    "progress": 0
+  }
+},
+{
+  "model": "learning_tracker.course",
+  "pk": 64,
+  "fields": {
+    "title": "IBM Generative AI Engineering Professional Certificate",
+    "create_date": "2025-03-28",
+    "update_date": "2025-03-28T01:49:11.891Z",
+    "user": 1,
+    "description": "Job-ready skills employers are crying out for in gen AI, machine learning, deep learning, NLP apps, and large language models in just 6 months. | Build and deploy generative AI applications, agents and chatbots using Python libraries like Flask, SciPy and ScikitLearn, Keras, and PyTorch. |  Key gen AI architectures and NLP models, and how to apply techniques like prompt engineering, model training, and fine-tuning.  | Apply transformers like BERT and LLMs like GPT for NLP tasks, with frameworks like RAG and LangChain.",
+    "source": "coursera",
+    "link": "https://www.coursera.org/professional-certificates/ibm-generative-ai-engineering",
+    "status": "later",
+    "image": "https://d15cw65ipctsrr.cloudfront.net/ca/1f2b5191954fdb867790ef74e8cbe3/200859-Logo-image.png",
+    "list": true,
+    "progress": 0
+  }
+},
+{
+  "model": "learning_tracker.course",
+  "pk": 66,
+  "fields": {
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "create_date": "2025-04-03",
+    "update_date": "2025-04-03T04:55:56.625Z",
+    "user": 1,
+    "description": "Understand the core concepts and be able to describe how LLMs work | Understand and build intuition around best practices for prompt engineering | Use LLM APIs, and understand how they can can be used in applications for a variety of tasks.",
+    "source": "coursera",
+    "link": "https://www.coursera.org/learn/chatgpt-prompt-engineering-for-developers-project",
+    "status": "done",
+    "image": "https://coursera-course-photos.s3.amazonaws.com/cf/379452534d4963876b4fa6be58d6c1/Screenshot-2023-07-28-at-12.24.35-PM.png",
+    "list": true,
+    "progress": 100
   }
 },
 {
@@ -10091,6 +11955,303 @@
     "title": "Beginner Blender 4.0 Tutorial - Part 14: Finale!",
     "done": false,
     "course": 55
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 328,
+  "fields": {
+    "title": "Prompt Engineering for ChatGPT",
+    "done": false,
+    "course": 62
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 329,
+  "fields": {
+    "title": "ChatGPT Advanced Data Analysis",
+    "done": false,
+    "course": 62
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 330,
+  "fields": {
+    "title": "Trustworthy Generative AI",
+    "done": false,
+    "course": 62
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 331,
+  "fields": {
+    "title": "What background knowledge is necessary?",
+    "done": false,
+    "course": 62
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 332,
+  "fields": {
+    "title": "Introduction to Software Engineering",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 333,
+  "fields": {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 334,
+  "fields": {
+    "title": "Generative AI: Introduction and Applications",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 335,
+  "fields": {
+    "title": "Generative AI: Prompt Engineering Basics",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 336,
+  "fields": {
+    "title": "Introduction to HTML, CSS, & JavaScript",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 337,
+  "fields": {
+    "title": "Python for Data Science, AI & Development",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 338,
+  "fields": {
+    "title": "Developing AI Applications with Python and Flask",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 339,
+  "fields": {
+    "title": "Building Generative AI-Powered Applications with Python",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 340,
+  "fields": {
+    "title": "Generative AI:Â Elevate your Software Development Career",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 341,
+  "fields": {
+    "title": "Software Developer Career Guide and Interview Preparation",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 342,
+  "fields": {
+    "title": "How can I earn my IBM Badge?",
+    "done": false,
+    "course": 63
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 343,
+  "fields": {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 344,
+  "fields": {
+    "title": "Generative AI: Introduction and Applications",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 345,
+  "fields": {
+    "title": "Generative AI: Prompt Engineering Basics",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 346,
+  "fields": {
+    "title": "Python for Data Science, AI & Development",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 347,
+  "fields": {
+    "title": "Developing AI Applications with Python and Flask",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 348,
+  "fields": {
+    "title": "Building Generative AI-Powered Applications with Python",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 349,
+  "fields": {
+    "title": "Data Analysis with Python",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 350,
+  "fields": {
+    "title": "Machine Learning with Python",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 351,
+  "fields": {
+    "title": "Introduction to Deep Learning & Neural Networks with Keras",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 352,
+  "fields": {
+    "title": "Generative AI and LLMs: Architecture and Data Preparation",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 353,
+  "fields": {
+    "title": "Gen AI Foundational Models for NLP & Language Understanding",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 354,
+  "fields": {
+    "title": "Generative AI Language Modeling with Transformers",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 355,
+  "fields": {
+    "title": "Generative AI Engineering and Fine-Tuning Transformers",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 356,
+  "fields": {
+    "title": "Generative AI Advance Fine-Tuning for LLMs",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 357,
+  "fields": {
+    "title": "Fundamentals of AI Agents Using RAG and LangChain",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 358,
+  "fields": {
+    "title": "Project: Generative AI Applications with RAG and LangChain",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 359,
+  "fields": {
+    "title": "How long does it take to complete the Specialization?",
+    "done": false,
+    "course": 64
+  }
+},
+{
+  "model": "learning_tracker.section",
+  "pk": 361,
+  "fields": {
+    "title": "What is the learning experience like with Projects?",
+    "done": true,
+    "course": 66
   }
 },
 {
@@ -12694,6 +14855,230 @@
     "date": "2025-03-13",
     "goal": null,
     "reward": null,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 266,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Two",
+    "create_date": "2025-03-25",
+    "update_date": "2025-03-25T22:36:26.131Z",
+    "user": 1,
+    "date": "2025-03-26",
+    "goal": null,
+    "reward": 271,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 267,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Three",
+    "create_date": "2025-03-28",
+    "update_date": "2025-03-28T05:34:25.288Z",
+    "user": 1,
+    "date": "2025-03-28",
+    "goal": null,
+    "reward": 271,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 268,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Four",
+    "create_date": "2025-04-01",
+    "update_date": "2025-04-01T03:29:54.108Z",
+    "user": 1,
+    "date": "2025-04-01",
+    "goal": null,
+    "reward": 271,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 269,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Five",
+    "create_date": "2025-04-02",
+    "update_date": "2025-04-02T20:39:53.035Z",
+    "user": 1,
+    "date": "2025-04-02",
+    "goal": null,
+    "reward": 272,
+    "done": true
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 271,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Six",
+    "create_date": "2025-04-03",
+    "update_date": "2025-04-03T03:40:49.100Z",
+    "user": 1,
+    "date": "2025-04-03",
+    "goal": null,
+    "reward": 271,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 272,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Seven",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-04T04:07:59.252Z",
+    "user": 1,
+    "date": "2025-04-04",
+    "goal": null,
+    "reward": 271,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 273,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: hundred and Twenty Eight",
+    "create_date": "2025-04-05",
+    "update_date": "2025-04-05T18:29:31.019Z",
+    "user": 1,
+    "date": "2025-04-05",
+    "goal": null,
+    "reward": 271,
+    "done": true
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 274,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Twenty Nine",
+    "create_date": "2025-04-06",
+    "update_date": "2025-04-06T20:20:57.877Z",
+    "user": 1,
+    "date": "2025-04-06",
+    "goal": null,
+    "reward": 294,
+    "done": true
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 275,
+  "fields": {
+    "title": "The last Odyssey, last chapters: Hundred and Thirty",
+    "create_date": "2025-04-07",
+    "update_date": "2025-04-07T04:25:35.474Z",
+    "user": 1,
+    "date": "2025-04-07",
+    "goal": null,
+    "reward": 294,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 276,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty One",
+    "create_date": "2025-04-08",
+    "update_date": "2025-04-08T17:13:27.570Z",
+    "user": 1,
+    "date": "2025-04-08",
+    "goal": null,
+    "reward": 294,
+    "done": true
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 277,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Two",
+    "create_date": "2025-04-08",
+    "update_date": "2025-04-08T18:32:30.549Z",
+    "user": 1,
+    "date": "2025-04-09",
+    "goal": null,
+    "reward": 339,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 278,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Three",
+    "create_date": "2025-04-10",
+    "update_date": "2025-04-10T10:21:32.788Z",
+    "user": 1,
+    "date": "2025-04-10",
+    "goal": null,
+    "reward": 339,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 279,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Four",
+    "create_date": "2025-04-12",
+    "update_date": "2025-04-12T07:44:40.523Z",
+    "user": 1,
+    "date": "2025-04-12",
+    "goal": null,
+    "reward": 339,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 280,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Five",
+    "create_date": "2025-04-13",
+    "update_date": "2025-04-13T03:42:29.007Z",
+    "user": 1,
+    "date": "2025-04-13",
+    "goal": null,
+    "reward": 339,
+    "done": false
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 281,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Six",
+    "create_date": "2025-04-14",
+    "update_date": "2025-04-14T20:29:04.281Z",
+    "user": 1,
+    "date": "2025-04-14",
+    "goal": null,
+    "reward": 339,
+    "done": true
+  }
+},
+{
+  "model": "missions.list",
+  "pk": 282,
+  "fields": {
+    "title": "The Last Odyssey, last chapters: Hundred and Thirty Seven",
+    "create_date": "2025-04-15",
+    "update_date": "2025-04-15T11:32:35.558Z",
+    "user": 1,
+    "date": "2025-04-15",
+    "goal": null,
+    "reward": 374,
     "done": false
   }
 },
@@ -19386,6 +21771,413 @@
   }
 },
 {
+  "model": "missions.mission",
+  "pk": 809,
+  "fields": {
+    "content": "Get and understand the requirements of the deepseek coder agent.",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 266
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 810,
+  "fields": {
+    "content": "Start working on the AI project if ready, otherwise study needed tools, libraries and concepts, then start working on it.",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 266
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 811,
+  "fields": {
+    "content": "Make the settings of MandelbrotCMS and description of parts.",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 266
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 812,
+  "fields": {
+    "content": "Study 2 at least of the general things in AI",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 267
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 813,
+  "fields": {
+    "content": "Make the video of last AC elements check",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 267
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 814,
+  "fields": {
+    "content": "Make the settings of the MandelbrotCMS, and add the part descriptions in the intro page",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 267
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 815,
+  "fields": {
+    "content": "Study at least 2 of the AI things",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 268
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 816,
+  "fields": {
+    "content": "Make the settings and intro page things",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 268
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 817,
+  "fields": {
+    "content": "Study AI things",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 269
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 818,
+  "fields": {
+    "content": "Check the AC project, maintain and refactor it more reliably",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 269
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 819,
+  "fields": {
+    "content": "Start planning and preparing for making the personal website",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 269
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 821,
+  "fields": {
+    "content": "Start working on the personal site",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 271
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 822,
+  "fields": {
+    "content": "Study AI things",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 271
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 823,
+  "fields": {
+    "content": "Study Chat history and memory, extraction, structured output, and prompt templates.",
+    "project": 31,
+    "course": null,
+    "status": "done",
+    "list": 272
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 824,
+  "fields": {
+    "content": "Study Agents and Langgraph",
+    "project": 31,
+    "course": null,
+    "status": "pending",
+    "list": 272
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 825,
+  "fields": {
+    "content": "Start working on the personal website",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 272
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 826,
+  "fields": {
+    "content": "Study Agents and Langgraph",
+    "project": 31,
+    "course": null,
+    "status": "done",
+    "list": 273
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 827,
+  "fields": {
+    "content": "Continue personal site",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 273
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 828,
+  "fields": {
+    "content": "Finish LangGraph",
+    "project": 31,
+    "course": null,
+    "status": "done",
+    "list": 274
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 829,
+  "fields": {
+    "content": "Make the 3D objects for the personal site",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 274
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 830,
+  "fields": {
+    "content": "Study Question-answering, summarization, multimodality, vector stores and DBs, and Embedding.",
+    "project": 31,
+    "course": null,
+    "status": "working",
+    "list": 275
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 831,
+  "fields": {
+    "content": "Make the 3D objects",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 275
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 832,
+  "fields": {
+    "content": "Make the 3D objects",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 276
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 833,
+  "fields": {
+    "content": "Study question answering and RAG",
+    "project": 31,
+    "course": null,
+    "status": "done",
+    "list": 276
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 834,
+  "fields": {
+    "content": "Design AC AI and do some experiments",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 277
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 835,
+  "fields": {
+    "content": "Finish making the 3D objects",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 277
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 836,
+  "fields": {
+    "content": "Draw the next steps for MandelbrotCMS",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 277
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 837,
+  "fields": {
+    "content": "Design AC AI and do some experiments",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 278
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 838,
+  "fields": {
+    "content": "Finish making the 3D objects",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 278
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 839,
+  "fields": {
+    "content": "Finish the AC AI",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 279
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 840,
+  "fields": {
+    "content": "Finish at least one 3D object",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 279
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 841,
+  "fields": {
+    "content": "Finish The AC AI",
+    "project": null,
+    "course": null,
+    "status": "working",
+    "list": 280
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 842,
+  "fields": {
+    "content": "Make the 3D models",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 280
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 843,
+  "fields": {
+    "content": "Plug the AC AI into the system",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 281
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 844,
+  "fields": {
+    "content": "Make 3D objects",
+    "project": null,
+    "course": null,
+    "status": "done",
+    "list": 281
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 845,
+  "fields": {
+    "content": "Make the 3D objects",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 282
+  }
+},
+{
+  "model": "missions.mission",
+  "pk": 846,
+  "fields": {
+    "content": "Add social auth to MandelbrotCMS",
+    "project": null,
+    "course": null,
+    "status": "pending",
+    "list": 282
+  }
+},
+{
   "model": "sessions_manager.project",
   "pk": 5,
   "fields": {
@@ -19588,11 +22380,25 @@
     "title": "Master Machine Learning",
     "description": "Building the solid foundation of ML which enables me to adjust and build on ML models, and build my own models. And  having the concrete understanding of Mathematical foundations, so I can extract the maximum potentials and possibilities of Machine Learning.",
     "create_date": "2024-08-28",
-    "update_date": "2025-03-15T00:00:00Z",
+    "update_date": "2025-04-09T17:15:32.487Z",
     "user": 1,
     "start_date": null,
     "finish_date": null,
     "status": "in progress"
+  }
+},
+{
+  "model": "sessions_manager.project",
+  "pk": 31,
+  "fields": {
+    "title": "AI Development",
+    "description": "Topics and concepts to study related to AI, LLM, and Agent development.",
+    "create_date": "2025-04-04",
+    "update_date": "2025-04-08T17:14:18.205Z",
+    "user": 1,
+    "start_date": "2025-04-04",
+    "finish_date": "2025-04-08",
+    "status": "completed"
   }
 },
 {
@@ -20101,7 +22907,7 @@
   "fields": {
     "title": "Mathematical Foundations",
     "description": "Learning the mathematics needed for ML.",
-    "done": false,
+    "done": true,
     "project": 30
   }
 },
@@ -20143,6 +22949,56 @@
     "description": "Mastering ML tools and libraries.",
     "done": false,
     "project": 30
+  }
+},
+{
+  "model": "sessions_manager.partition",
+  "pk": 96,
+  "fields": {
+    "title": "Prompt Engineering",
+    "description": "",
+    "done": true,
+    "project": 31
+  }
+},
+{
+  "model": "sessions_manager.partition",
+  "pk": 97,
+  "fields": {
+    "title": "Langchain concepts",
+    "description": "Tools / tool calling, Chat history and memory, extraction, structured output, and prompt templates",
+    "done": true,
+    "project": 31
+  }
+},
+{
+  "model": "sessions_manager.partition",
+  "pk": 98,
+  "fields": {
+    "title": "Agents and Langgraph",
+    "description": "",
+    "done": true,
+    "project": 31
+  }
+},
+{
+  "model": "sessions_manager.partition",
+  "pk": 99,
+  "fields": {
+    "title": "RAG",
+    "description": "Retrieval Augmented Generation",
+    "done": true,
+    "project": 31
+  }
+},
+{
+  "model": "sessions_manager.partition",
+  "pk": 100,
+  "fields": {
+    "title": "More Langchain/ concepts",
+    "description": "Question-answering, summarization, multimodality, vector stores and DBs, and Embedding.",
+    "done": true,
+    "project": 31
   }
 }
 ]

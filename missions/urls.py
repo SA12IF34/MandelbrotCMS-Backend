@@ -1,11 +1,13 @@
 from django.urls import path
-from . import views
- 
+from django.views.generic import TemplateView
+
+
 urlpatterns = [
-    path('apis/lists/', views.ListsAPIs.as_view(), name='lists_apis'),
-    path('apis/lists/today/<str:date>/', views.get_today_list, name='get_today_list'),
-    path('apis/lists/<int:pk>/', views.ListAPIs.as_view(), name='list_apis'),
-    path('apis/missions/<int:pk>/', views.mission_operations, name='mission_operations'),
-    path('apis/lists/<int:pk>/<str:sequence>/', views.get_sequence_list, name='get_sequence_list'),
-    path('apis/set-cookie/', views.set_cookie, name="set_cookie")
+    path('', TemplateView(template_name="index.html")),
+    path('create-new-list/', TemplateView(template_name="index.html")),
+    path('all-lists/', TemplateView(template_name="index.html")),
+    path('lists/<int:id>/', TemplateView(template_name="index.html")),
+    path('profile/', TemplateView(template_name="index.html")),
+    path('settings/', TemplateView(template_name="index.html")),
+    path('*', TemplateView(template_name="index.html"))
 ]

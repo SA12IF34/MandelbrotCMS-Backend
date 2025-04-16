@@ -1,0 +1,1 @@
+import{a as e}from"./api-d470eb0d.js";const s=e.create({baseURL:"https://api.cms.saifchan.online/sessions_manager/apis/",withCredentials:!0,withXSRFToken:!0,xsrfCookieName:"csrftoken",xsrfHeaderName:"X-CSRFToken"});export{s as a};

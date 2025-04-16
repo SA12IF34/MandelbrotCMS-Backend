@@ -1,0 +1,1 @@
+import{a as e}from"./api-d470eb0d.js";const r=e.create({baseURL:"https://api.cms.saifchan.online/learning_tracker/apis/",withCredentials:!0,xsrfCookieName:"csrftoken",xsrfHeaderName:"X-CSRFToken",withXSRFToken:!0});export{r as a};

@@ -17,7 +17,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = ENV('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 if DEBUG:
@@ -124,7 +124,7 @@ INSTALLED_APPS = [
 ]
 
 
-SITE_ID = 3
+SITE_ID = 4
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -197,7 +197,7 @@ SIMPLE_JWT = {
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/'Frontend/dist'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -229,7 +229,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': '',
+            'NAME': '/home/db/db.sqlite3',
         }
     }
 
@@ -276,8 +276,11 @@ if DEBUG:
     MEDIA_URL = '/media/'
 
 else:
+    STATIC_ROOT = BASE_DIR/'staticfiles'
     STATIC_URL = '/assets/'
-
+    STATICFILES_DIRS = [
+      BASE_DIR/'Frontend/dist/assets'
+    ]
     MEDIA_ROOT = BASE_DIR/'media'
     MEDIA_URL = '/media/'
 
