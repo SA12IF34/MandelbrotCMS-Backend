@@ -17,7 +17,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = ENV('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 if DEBUG:
@@ -270,20 +270,19 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 if DEBUG:
-    STATIC_URL = 'assets/'
-
     MEDIA_ROOT = BASE_DIR/'media'
     MEDIA_URL = '/media/'
 
 else:
-    STATIC_ROOT = BASE_DIR/'staticfiles'
-    STATIC_URL = '/assets/'
-    STATICFILES_DIRS = [
-      BASE_DIR/'Frontend/dist/assets'
-    ]
+
     MEDIA_ROOT = BASE_DIR/'media'
     MEDIA_URL = '/media/'
 
+STATIC_ROOT = BASE_DIR/'staticfiles'
+STATIC_URL = '/assets/'
+STATICFILES_DIRS = [
+  BASE_DIR/'Frontend/dist/assets'
+]
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 

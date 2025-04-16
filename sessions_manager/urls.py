@@ -9,15 +9,5 @@ urlpatterns = [
     path('apis/projects/<int:id>/', ProjectAPIs.as_view()),
     path('apis/partitions/<int:id>/', PartitionAPIs.as_view()),
 
-    path('', TemplateView.as_view(template_name=''))
 ]
  
-REACT_ROUTES = [
-    'completed/',
-    'in-progress/',
-    'projects/<int:id>/',
-    'new-project/'
-]
-
-for route in REACT_ROUTES:
-    urlpatterns.append(path(route, TemplateView.as_view(template_name='')))

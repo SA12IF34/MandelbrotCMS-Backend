@@ -1,3 +1,4 @@
+from django.shortcuts import render, redirect
 from django.contrib import admin
 from django.urls import path, re_path, include
 from django.conf.urls.static import static
@@ -6,10 +7,19 @@ from django.views.generic import TemplateView
 
 from django.conf import settings
 
+
+def home_view(request):
+
+    if not request.user.is_authenticated:
+        return render(request, 'index.html')
+
+    return redirect('/central')
+
+
 urlpatterns = [
-    path('', TemplateView(template_name="index.html")),
-    path('login/', TemplateView(template_name="index.html")),
-    path('register/', TemplateView(template_name="index.html")),
+    path('', home_view),
+    path('login/', TemplateView.as_view(template_name="index.html")),
+    path('register/', TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
     path('authentication/', include('authentication.urls')),
 

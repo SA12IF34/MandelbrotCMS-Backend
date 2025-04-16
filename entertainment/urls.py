@@ -15,5 +15,18 @@ urlpatterns = [
     path('apis/all/', get_all_materials, name='get_all_materials'),
     path('apis/materials/<int:pk>/', material_operations, name='material_operations'),
     path('apis/special/', get_special_materials, name='get_special_materials'),
-    path('apis/search/', search_materials, name='search_materials')
+    path('apis/search/', search_materials, name='search_materials'),
+
+    path('', TemplateView.as_view(template_name="index.html")),
+    path('*', TemplateView.as_view(template_name="index.html"))
 ] 
+
+REACT_ROUTES = [
+    'add-material/',
+    'materials/<int:id>/',
+    'special/',
+    'search/'
+]
+
+for route in REACT_ROUTES:
+    urlpatterns.append(path(route, TemplateView.as_view(template_name="index.html")))
