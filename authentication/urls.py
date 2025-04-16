@@ -24,11 +24,11 @@ from .views import (
 
 urlpatterns = [
     # Social Auth Paths
-    path('rest-auth/', include('dj_rest_auth.urls')),
-    path('rest-auth/registration/', include('dj_rest_auth.registration.urls')),
-    path('rest-auth/google/', GoogleLogin.as_view()),
-    path('rest-auth/github/', GitHubLogin.as_view()),
-    path('rest-auth/access_token/github/', get_github_access_token),
+    path('apis/rest-auth/', include('dj_rest_auth.urls')),
+    path('apis/rest-auth/registration/', include('dj_rest_auth.registration.urls')),
+    path('apis/rest-auth/google/', GoogleLogin.as_view()),
+    path('apis/rest-auth/github/', GitHubLogin.as_view()),
+    path('apis/rest-auth/access_token/github/', get_github_access_token),
 
     # JWT Paths
     path('apis/jwt/login/', TokenObtainPairViewChan.as_view()),
