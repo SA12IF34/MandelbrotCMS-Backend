@@ -101,6 +101,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'corsheaders',
 
     # System Apps
@@ -122,10 +123,8 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.github',
 ]
 
-if DEBUG:
-    SITE_ID = 2
-else:
-    SITE_ID = 3
+
+SITE_ID = 3
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

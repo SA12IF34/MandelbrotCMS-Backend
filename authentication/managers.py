@@ -14,7 +14,7 @@ class AccountManager(BaseUserManager):
         email = self.normalize_email(email)
         user = self.model(email=email, **extra_fields)
         user.set_password(password)
-        user.save(self._db)
+        user.save()
 
         from .models import AccountSettings
         AccountSettings.objects.create(account=user)
