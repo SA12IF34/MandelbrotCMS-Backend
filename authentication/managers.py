@@ -16,9 +16,6 @@ class AccountManager(BaseUserManager):
         user.set_password(password)
         user.save()
 
-        from .models import AccountSettings
-        AccountSettings.objects.create(account=user)
-
         return user
 
     def create_superuser(self, email, password, **extra_fields):

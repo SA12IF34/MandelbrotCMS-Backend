@@ -24,7 +24,6 @@ from dj_rest_auth.registration.views import SocialLoginView
 import datetime
 import requests
 
-
 # Social Authentication
 
 class GoogleLogin(SocialLoginView):
