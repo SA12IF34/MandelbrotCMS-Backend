@@ -3,7 +3,7 @@ from Parent.models import BaseObject
 
 class List(BaseObject):
     description = None
-    date = models.DateField(null=False, blank=False, unique=True)
+    date = models.DateField(null=False, blank=False)
     goal = models.IntegerField(null=True, blank=True, default=None)
     reward = models.IntegerField(null=True, blank=False, default=None)
     done = models.BooleanField(null=False, blank=False, default=False)

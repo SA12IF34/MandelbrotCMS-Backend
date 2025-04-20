@@ -56,6 +56,9 @@ class ListsAPIs(APIView):
                 
             list_data = request.data['list']
             missions_data = request.data['missions']
+            
+            if Mission.objects.filter(Q(list__user=user) & Q(list__date=list_data['date'])).exists():
+                return Response(status=HTTP_409_CONFLICT)
 
             # Creating List in DB
 
