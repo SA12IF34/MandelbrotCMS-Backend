@@ -1,7 +1,13 @@
 venv
 media
 media/*
+assets
+assets/*
+staticfiles
+staticfiles/*
 db.sqlite3
-core/settings.py
+db.json
 Frontend
 Frontend/*
+entertainment/tokens.json
+learning_tracker/client_secret.json
