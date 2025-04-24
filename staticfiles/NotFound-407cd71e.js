@@ -1,1 +1,0 @@
-import{j as e,L as s}from"./index-3a55f404.js";function t(){return document.title="Not Found",e.jsxs("div",{className:"page",children:[e.jsx("h2",{children:"The page does not exist.."}),e.jsx("br",{}),e.jsx(s,{to:"/sessions-manager/",children:"Back to Home Page"})]})}export{t as default};
