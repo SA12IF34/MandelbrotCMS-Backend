@@ -24,7 +24,7 @@ if DEBUG:
     ALLOWED_HOSTS = []
     DOMAIN = 'localhost'
 else:
-    ALLOWED_HOSTS = ['*', 'api.cms.saifchan.online']
+    ALLOWED_HOSTS = ['cms.saifchan.online']
     DOMAIN = '.cms.saifchan.online'
 
 CSRF_COOKIE_DOMAIN = DOMAIN

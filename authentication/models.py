@@ -39,6 +39,7 @@ class AccountSettings(models.Model):
     redirect_home = models.BooleanField(default=True, verbose_name='Redirect to home page')
     intro_parts_nav = models.BooleanField(default=False, verbose_name='Intro parts navigation')
     default_entertainment_type = models.CharField(max_length=25, choices=TYPE_CHOICES, default=TYPE_CHOICES[0][0], null=True)
+    open_sidenav = models.BooleanField(default=False, verbose_name='Open sidenav')
 
     def __str__(self):
         return f'{self.account.username} | {self.account.email} | {self.account.id}'

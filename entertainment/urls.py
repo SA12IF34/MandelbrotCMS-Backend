@@ -18,7 +18,7 @@ urlpatterns = [
     path('apis/search/', search_materials, name='search_materials'),
 
     path('', TemplateView.as_view(template_name="index.html")),
-    path('*', TemplateView.as_view(template_name="index.html"))
+    path('.*/', TemplateView.as_view(template_name="index.html"))
 ] 
 
 REACT_ROUTES = [
