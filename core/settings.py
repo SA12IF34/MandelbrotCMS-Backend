@@ -17,7 +17,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = ENV('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 if DEBUG:
@@ -111,6 +111,7 @@ INSTALLED_APPS = [
     'entertainment',
     'missions',
     'goals',
+    'notes',
 
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
@@ -123,8 +124,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.github',
 ]
 
-
-SITE_ID = 4
+if DEBUG:
+    SITE_ID = 3
+else:
+    SITE_ID = 4
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
