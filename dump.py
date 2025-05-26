@@ -1,13 +1,20 @@
-import os
-import django
-from django.conf import settings
-from django.core.management import call_command
-
-# Set the Django settings module
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")# Initialize Django
-django.setup()
+import json
 
 
-with open("db.json", "w", encoding="utf-8") as f:
-    call_command("dumpdata", "entertainment", "goals", "learning_tracker", "missions", "sessions_manager", indent=2, stdout=f)
 
+with open('old-notes.json', 'r', encoding='utf-8') as notes:
+    notes_data = json.load(notes)
+    final_data = []
+    i=0
+    while i < len(notes_data):
+    
+        if 'content' in notes_data[i]['fields']:
+            final_data.append(notes_data[i])
+
+        
+
+        i+=1
+
+
+with open('notes.json', 'w', encoding='utf-8') as file:
+    json.dump(final_data, file, indent=2)
