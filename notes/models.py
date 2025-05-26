@@ -15,10 +15,12 @@ kwargs = {
 class Note(BaseObject):
     description = None
     title = None
+    create_date = None
     title = models.CharField(max_length=110, null=True, blank=True, default=None)
     content = models.TextField(null=False, blank=False)
     drawn_content = models.TextField(null=True, blank=True, default=None)
     uploaded_file = models.FileField(upload_to=upload_file, null=True, blank=True, default=None)
+    create_date = models.DateTimeField(auto_now_add=True)
 
     project = models.ForeignKey('sessions_manager.Project', **kwargs)
     learning_material = models.ForeignKey('learning_tracker.Course', **kwargs)
