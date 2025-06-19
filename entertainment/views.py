@@ -26,11 +26,14 @@ def add_material_by_link(request):
         elif 'anilist' in request.data['link']:
             data, relatives = get_anilist(request.data['link'])
 
-        elif 'steam' in request.data['link']:
+        elif 'store.steampowered' in request.data['link']:
             data, relatives = get_steam(request.data['link'])
 
         elif 'rottentomatoes' in request.data['link']:
             data, relatives = get_rottentomatoes(request.data['link'])
+        
+        elif 'imdb' in request.data['link']:
+            data, relatives = get_imdb(request.data['link'])
 
         else:
             return Response(data={'data': 'invalid link'}, status=HTTP_400_BAD_REQUEST)
@@ -75,7 +78,7 @@ def add_material_by_link(request):
 
                 return Response(data=main_serializer.data, status=HTTP_201_CREATED)
             
-            return Response(data=main_serializer.errors, status=HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response(data=main_serializer.errors, status=HTTP_400_BAD_REQUEST)
         
         return Response(data=main_serializer.errors, status=HTTP_400_BAD_REQUEST)
 
@@ -201,6 +204,71 @@ def material_operations(request, pk):
     except Entertainment.DoesNotExist:
         return Response(status=HTTP_404_NOT_FOUND)
 
+@api_view(['PATCH'])
+@permission_classes([IsAuthenticated])
+def auto_update_material(request, pk):
+    try:
+        material = Entertainment.objects.get(user=request.user.id, id=pk)
+
+        if 'myanimelist' in material.link:
+            data, relatives = get_mal(material.link)
+
+        elif 'anilist' in material.link:
+            data, relatives = get_anilist(material.link)
+
+        elif 'store.steampowered' in material.link:
+            data, relatives = get_steam(material.link)
+
+        elif 'rottentomatoes' in material.link:
+            data, relatives = get_rottentomatoes(material.link)
+        
+        elif 'imdb' in material.link:
+            data, relatives = get_imdb(material.link)
+
+        else:
+            return Response(data={'data': 'invalid link'}, status=HTTP_400_BAD_REQUEST)
+
+        main_serializer = EntertainmentSerializer(instance=material, data=data, partial=True)
+        if main_serializer.is_valid():
+            main_serializer.save()
+
+            id_list = []
+
+            try:
+                for entry in relatives:
+
+                    if Entertainment.objects.filter(title=entry['title'], user=request.user.id).exists():
+                        continue
+
+                    entry['user'] = request.user.id
+                    
+                    serializer = EntertainmentSerializer(data=entry)
+                    
+                    if serializer.is_valid(raise_exception=True):
+                        serializer.save()
+
+                        id_list.append(serializer.data['id'])
+            
+            except ValidationError:
+                return Response(data=serializer.errors, status=HTTP_500_INTERNAL_SERVER_ERROR)
+
+            
+
+            id_list.append(main_serializer.data['id'])
+
+            for id_ in id_list:
+                material = Entertainment.objects.get(id=id_)
+                material.relatives.set([*list(filter(lambda x: x!= id_, id_list)), *list(material.relatives.all())])
+                material.save()
+
+            return Response(data=main_serializer.data, status=HTTP_202_ACCEPTED)
+            
+        
+        return Response(data=main_serializer.errors, status=HTTP_400_BAD_REQUEST)
+
+
+    except Entertainment.DoesNotExist:
+        return Response(status=HTTP_404_NOT_FOUND)
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])

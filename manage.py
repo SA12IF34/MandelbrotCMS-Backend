@@ -18,7 +18,7 @@ def main():
     # Set default port to 10000
     from django.core.management.commands.runserver import Command as runserver
     runserver.default_port = "10000"
-
+    runserver.default_addr = '0.0.0.0'
     execute_from_command_line(sys.argv)
 
 

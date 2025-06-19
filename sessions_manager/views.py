@@ -200,7 +200,7 @@ class PartitionAPIs(APIView):
 
                     return Response(data={'error': 'project update error after partition update'}, status=HTTP_500_INTERNAL_SERVER_ERROR)
                 
-                if done_partitions == 1:
+                if done_partitions == 1 and project.start_date is None:
                     serializer = ProjectSerializer(instance=project, data={
                     'start_date': datetime.date.today()
                     }, partial=True)

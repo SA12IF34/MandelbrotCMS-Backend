@@ -17,12 +17,12 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = ENV('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 if DEBUG:
-    ALLOWED_HOSTS = []
-    DOMAIN = 'localhost'
+    ALLOWED_HOSTS = ['*']
+    DOMAIN = '192.168.100.8'
 else:
     ALLOWED_HOSTS = ['cms.saifchan.online']
     DOMAIN = '.cms.saifchan.online'
@@ -35,16 +35,19 @@ if DEBUG:
         'http://localhost:5173',
         'http://localhost:4173',
         'http://127.0.0.1:10000',
-        'http://localhost:10000'
+        'http://localhost:10000',
+        'http://192.168.100.8:5173'
     ]
     CSRF_TRUSTED_ORIGINS = [
         'http://localhost:5173',
         'http://localhost:4173',
         'http://127.0.0.1:10000',
-        'http://localhost:10000'
+        'http://localhost:10000',
+        'http://192.168.100.8:5173'
     ]
     CORS_ORIGIN_WHITELIST = [
         'http://localhost:5173',
+        'http://192.168.100.8:5173'
     ]
 
 else:
