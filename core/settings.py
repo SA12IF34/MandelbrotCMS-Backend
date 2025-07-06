@@ -54,18 +54,24 @@ else:
     CORS_ALLOWED_ORIGINS = [
         'https://cms.saifchan.online',
         'https://api.cms.saifchan.online',
-        'https://saifchan.online'
+        'https://saifchan.online',
+        'null',
+        'None'
 
     ]
     CSRF_TRUSTED_ORIGINS = [
         'https://cms.saifchan.online',
         'https://api.cms.saifchan.online',
-        'https://saifchan.online'
+        'https://saifchan.online',
+        'null',
+        'None'
     ]
     CORS_ORIGIN_WHITELIST = [
         'https://cms.saifchan.online',
         'https://api.cms.saifchan.online',
-        'https://saifchan.online'
+        'https://saifchan.online',
+        'null',
+        'None'
     ]
 
 CORS_ALLOW_CREDENTIALS = True
