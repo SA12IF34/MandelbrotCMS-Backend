@@ -35,7 +35,7 @@ class ListsAPIs(APIView):
 
 
     def get(self, request):
-
+        print(request.headers.get('Origin'))
         try:
             data = orm.get_all_objs(
                 model=List,
@@ -53,17 +53,17 @@ class ListsAPIs(APIView):
     def post(self, request):
         try:
             user = request.user.id
-                
+                    
             list_data = request.data['list']
             missions_data = request.data['missions']
             
             if Mission.objects.filter(Q(list__user=user) & Q(list__date=list_data['date'])).exists():
                 return Response(status=HTTP_409_CONFLICT)
 
-            # Creating List in DB
+                # Creating List in DB
 
             try:
-                if list_data['reward']:
+                if 'reward' in list_data and list_data['reward']:
                     if list_data['lock_reward']:
                         handle_lock_entertainment(list_data['reward'])
 
@@ -74,11 +74,11 @@ class ListsAPIs(APIView):
 
             list_data['user'] = user
             list_serializer = ListSerializer(data=list_data)
-                
+                    
             if list_serializer.is_valid():
                 list_serializer.save()
 
-                    # Creating List's Mission Objects
+                        # Creating List's Mission Objects
                 if len(missions_data) > 0:
                     for mission in missions_data:
                         mission['list'] = list_serializer.data['id']
@@ -89,11 +89,11 @@ class ListsAPIs(APIView):
                         missions_serializer.save()
 
                         return Response(data=list_serializer.data, status=HTTP_201_CREATED)
-                        
+                            
                     return Response(data=missions_serializer.errors, status=HTTP_400_BAD_REQUEST)
 
                 return Response(status=HTTP_411_LENGTH_REQUIRED)
-                    
+                        
             return Response(data=list_serializer.errors, status=HTTP_400_BAD_REQUEST)
 
         except:

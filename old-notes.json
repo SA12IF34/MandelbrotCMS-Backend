@@ -1,0 +1,338 @@
+[
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"Learning more about making a database backup and copy.\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Databases Backup and Copy",
+      "update_date": "2024-08-14T00:00:00Z",
+      "create_date": "2024-08-14T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 20
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"add a feature of making lists of certain notes so similar notes or the notes of same type or purpose are in one list.\"",
+      "drawn_content": "data:image/png;base64,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",
+      "user": 1,
+      "title": "Notes part feature",
+      "update_date": "2024-08-14T00:00:00Z",
+      "create_date": "2024-08-14T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 21
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"Understanding and learning more about LLMs and GPT clone architectures from <b>eleuther.ai </b>and <b>Meta</b>.<div><br></div><div>Eleuther's link to LLMs training related topics, libraries and models(architectures):&nbsp;https://www.eleuther.ai/projects/training-large-language-models</div><div><br></div><div>Meta's research link:&nbsp;https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/?ref=dl-staging-website.ghost.io</div><div><br></div><div>OPT model repo link:&nbsp;https://github.com/facebookresearch/metaseq/tree/main</div><div><br></div><div>The Pile dataset for training LLMs links:&nbsp;https://pile.eleuther.ai/ <b>and&nbsp;</b><span style=\\\"background-color: transparent;\\\">https://the-eye.eu/public/AI/</span></div><div><span style=\\\"background-color: transparent;\\\"><br></span></div><div><span style=\\\"background-color: transparent;\\\">Huggingface dataset:&nbsp;</span><span style=\\\"background-color: transparent;\\\">https://huggingface.co/datasets/bigcode/the-stack-v2/viewer</span></div><div><span style=\\\"background-color: transparent;\\\"><br></span></div><div><span style=\\\"background-color: transparent;\\\">Find other datasets for training LLMs using the term \\\"</span><span style=\\\"background-color: transparent;\\\">llm training dataset\\\".</span></div><div><span style=\\\"background-color: transparent;\\\"><br></span></div><div><span style=\\\"background-color: transparent;\\\">Some dataset links:</span></div><div><span style=\\\"background-color: transparent;\\\">-&nbsp;</span><span style=\\\"background-color: transparent;\\\">https://huggingface.co/collections/sugatoray/llm-training-datasets-65dbe4ab2b0037ec198b09ab</span></div><div><span style=\\\"background-color: transparent;\\\">-&nbsp;</span><span style=\\\"background-color: transparent;\\\">https://github.com/Zjh-819/LLMDataHub</span></div><div><span style=\\\"background-color: transparent;\\\">-&nbsp;</span><span style=\\\"background-color: transparent;\\\">https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models#8.-wikipedia</span></div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "LLMs, transformers, DL research",
+      "update_date": "2024-09-02T00:00:00Z",
+      "create_date": "2024-09-02T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 22
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"Making apple and rice dishes like <b>Rice Pudding </b>with apples and other ingredients.<div><br></div><div>Some links:</div><div>https://www.tasteofhome.com/recipes/grandma-s-apples-and-rice/<br></div><div>https://natashaskitchen.com/apple-rice-pudding/<br></div><div><br></div><div>search terms:</div><div><b>Rice Pudding</b><br></div><div><b>recipes using apple and rice</b><br></div><div><b>Rissoto with apples </b>and <b>Apple Rissoto</b></div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Apple and Rice Recipes",
+      "update_date": "2024-09-03T00:00:00Z",
+      "create_date": "2024-09-03T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 23
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"- \u0625\u0633\u0631\u0627\u0626\u064a\u0644 \u0627\u0644\u0628\u062f\u0627\u064a\u0629 \u0648 \u0627\u0644\u0646\u0647\u0627\u064a\u0629<div>- \u0627\u0644\u0642\u0636\u064a\u0629 \u0627\u0644\u0641\u0644\u0633\u0637\u064a\u0646\u064a\u0629 \u0648 \u0627\u0644\u0645\u062c\u062a\u0645\u0639 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Books must read",
+      "update_date": "2024-09-17T00:00:00Z",
+      "create_date": "2024-09-17T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 24
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"Software engineering concepts: https://microsoft.github.io/code-with-engineering-playbook/<div><br><div>Clean Code and Design Patterns: https://refactoring.guru/<br></div></div><div><br></div><div>Solid Principles and Design Patterns:&nbsp;https://www.oodesign.com/</div><div><br></div><div>Red hat IT topics:&nbsp;https://www.redhat.com/en/topics</div><div><br></div><div>The Super Tiny Compiler:&nbsp;https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js</div><div><br></div><div>System Design Studying:&nbsp;https://systemdesigndaily.com/</div><div><br></div><div>Linode Docs:&nbsp;https://www.linode.com/docs/guides/</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Learning Resources",
+      "update_date": "2024-10-18T00:00:00Z",
+      "create_date": "2024-10-18T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 25
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"anilab is an anime app for mobile<div>https://anilab.to/</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Anilab application",
+      "update_date": "2024-10-19T00:00:00Z",
+      "create_date": "2024-10-19T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 27
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"https://huggingface.co/learn/nlp-course/chapter1/1\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Huggingface NLP course",
+      "update_date": "2024-10-29T00:00:00Z",
+      "create_date": "2024-10-29T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 28
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"- MandelbrotCMS refactoring and upgrade<div>- Intelligent music app</div><div>- Website upgrade</div><div>- Learning DSA&nbsp;</div><div>- Learning Japanese</div><div>- Making a game</div><div>- Reading books</div><div>- Researches</div><div>- Drawing</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>.</div><div>...</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Mee.. MEEE BROZER!",
+      "update_date": "2025-02-22T00:00:00Z",
+      "create_date": "2025-02-22T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 29
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"https://www.programiz.com/dsa/getting-started\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "DSA from programiz",
+      "update_date": "2024-11-20T00:00:00Z",
+      "create_date": "2024-11-20T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 30
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"I want to refactor every project I have built starting from MandelbrotCMS<div>I want to redraw every drawing I have done :)</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "I want to...",
+      "update_date": "2024-12-13T00:00:00Z",
+      "create_date": "2024-12-13T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 32
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"- MandelbrotCMS as a business<div>- App &amp; ML selling platform</div><div><br></div><div>Every project has it's own note which contains the details of that project</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "Projects",
+      "update_date": "2025-01-12T00:00:00Z",
+      "create_date": "2025-01-12T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 35
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"I want to continue learning<div>- Web concepts<br><div>- Django and backend</div><div>- Javascript</div><div>- more programming (SOLID, Clean Code, Design Patterns, Automation)</div><div>- software architecture (Architecture patterns, Large Scale communication)</div><div>- Machine learning and deep learning</div><div>- text models and AI tools (huggingface, langchain, RAG, langGraph)</div><div>- NLP &amp; ML (Diving deep into RNN &amp; LSTM,&nbsp;</div><div><span style=\\\"font-size: 17.6px;\\\">- php (PDO, File Handling, OOP, Security, Enumeration, Namespaces, hashing)</span></div><div><br></div><div>I want to learn</div><div>- NoSql</div><div>- new programming language (C, C++, Rust, Java, C#, Go)</div><div>- new CS concepts ()</div><div>- new fields</div><div><br></div><div>I want to review learned things&nbsp; and add on top of them</div></div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": "I want to learn...",
+      "update_date": "2025-01-14T00:00:00Z",
+      "create_date": "2025-01-14T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 36
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "content": "\"I want to make this cool<div>I want to be strong</div>\"",
+      "drawn_content": null,
+      "user": 1,
+      "title": ".",
+      "update_date": "2025-01-21T00:00:00Z",
+      "create_date": "2025-01-21T00:00:00Z",
+      "uploaded_file": null,
+      "entertainment_material": null,
+      "learning_material": null,
+      "project": null,
+      "goal": null,
+      "missions_list": null
+    },
+    "id": 37
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 21
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 23
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 25
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 28
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": 56,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 30
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 35
+  },
+  {
+    "model": "notes.note",
+    "fields": {
+      "project": null,
+      "learning_material": null,
+      "entertainment_material": null,
+      "goal": null,
+      "uploaded_file": null,
+      "missions_list": null
+    },
+    "id": 37
+  }
+]

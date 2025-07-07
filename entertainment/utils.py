@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 from itertools import islice
-
+from time import sleep
 from django.conf import settings
 
 
@@ -50,43 +50,43 @@ genre_names = ['action', 'adventure', 'ai', 'arts', 'cars', 'comedy', 'dementia'
 
 def filter_seq(x):
 
-    return x['relation_type'] == 'sequel'
+    return x['relation'] == 'Sequel'
 
 def filter_pre(x):
 
-    return x['relation_type'] == 'prequel'
+    return x['relation'] == 'Prequel'
 
 def get_mal_sequels(data, type_, access_token, collected_ids):
-    relations = filter(filter_seq,data['related_anime' if type_ == 'anime' else 'related_manga'])
+    relations = filter(filter_seq, data['relations'])
     relatives = []
-
+    sleep(1)
     for entry in relations:
 
-        if entry['node']['id'] in collected_ids:
+        if entry['entry'][0]['type'] == 'music' or entry['entry'][0]['type'] == 'cm':
             continue
 
-        collected_ids.append(entry['node']['id'])
-
-        res = requests.get(f'https://api.myanimelist.net/v2/{type_}/{entry["node"]["id"]}?fields=title,main_picture,synopsis,genres,mean,media_type,related_{type_}', headers={
-        'Authorization': 'Bearer '+access_token
-        })
-
-        entry_data = res.json()
-
-        if entry_data['media_type'] == 'music' or entry_data['media_type'] == 'cm':
+        if entry['entry'][0]['mal_id'] in collected_ids:
             continue
+
+        collected_ids.append(entry['entry'][0]['mal_id'])
+
+        res = requests.get(f'https://api.jikan.moe/v4/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}/full/')
+        entry_data = res.json()['data']
+    
+        entry_genres = [*entry_data['genres'], *entry_data['explicit_genres'], *entry_data['themes'], *entry_data['demographics']]
 
         relatives.append({
-            'title': entry['node']['title'],
-            'link': f'https://myanimelist.net/{type_}/{entry["node"]["id"]}',
-            'image': entry['node']['main_picture']['medium'],
+            'title': entry['entry'][0]['name'],
+            'link': f'https://myanimelist.net/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}',
+            'image': entry_data['images']['jpg']['large_image_url'],
             'status': 'future',
             'description': '.' if len(entry_data['synopsis']) == 0 else entry_data['synopsis'],
-            'rate': entry_data['mean'] if 'mean' in entry_data.keys() else None,
-            'genres':  [x['name'].lower() for x in entry_data['genres'] if x['name'].lower() in genre_names],
+            'rate': entry_data['score'],
+            'genres':  [x['name'].lower() for x in entry_genres if x['name'].lower() in genre_names],
             'type': 'anime&manga',
-            'subtype': type_
+            'subtype': entry["entry"][0]["type"]
         })
+        sleep(0.7)
 
         relatives.extend(get_mal_sequels(entry_data, type_, access_token, collected_ids)[0])
     
@@ -95,36 +95,37 @@ def get_mal_sequels(data, type_, access_token, collected_ids):
 
 
 def get_mal_prequels(data, type_, access_token, collected_ids):
-    relations = filter(filter_pre,data['related_anime' if type_ == 'anime' else 'related_manga'])
+    relations = filter(filter_pre,data['relations'])
     relatives = []
-
+    sleep(1)
     for entry in relations:
 
-        if entry['node']['id'] in collected_ids:
+        if entry['entry'][0]['type'] == 'music' or entry['entry'][0]['type'] == 'cm':
             continue
 
-        collected_ids.append(entry['node']['id'])
-
-        res = requests.get(f'https://api.myanimelist.net/v2/{type_}/{entry["node"]["id"]}?fields=title,main_picture,synopsis,genres,mean,media_type,related_{type_}', headers={
-        'Authorization': 'Bearer '+access_token
-        })
-
-        entry_data = res.json()
-
-        if entry_data['media_type'] == 'music' or entry_data['media_type'] == 'cm':
+        if entry['entry'][0]['mal_id'] in collected_ids:
             continue
+
+        collected_ids.append(entry['entry'][0]['mal_id'])
+
+        res = requests.get(f'https://api.jikan.moe/v4/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}/full/')
+        print(res.json())
+        entry_data = res.json()['data']
+    
+        entry_genres = [*entry_data['genres'], *entry_data['explicit_genres'], *entry_data['themes'], *entry_data['demographics']]
 
         relatives.append({
-            'title': entry['node']['title'],
-            'link': f'https://myanimelist.net/{type_}/{entry["node"]["id"]}',
-            'image': entry['node']['main_picture']['medium'],
+            'title': entry['entry'][0]['name'],
+            'link': f'https://myanimelist.net/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}',
+            'image': entry_data['images']['jpg']['large_image_url'],
             'status': 'done',
             'description': '.' if len(entry_data['synopsis']) == 0 else entry_data['synopsis'],
-            'rate': entry_data['mean'] if 'mean' in entry_data.keys() else None,
-            'genres':  [x['name'].lower() for x in entry_data['genres'] if x['name'].lower() in genre_names],
+            'rate': entry_data['score'],
+            'genres':  [x['name'].lower() for x in entry_genres if x['name'].lower() in genre_names],
             'type': 'anime&manga',
-            'subtype': type_
+            'subtype': entry["entry"][0]["type"]
         })
+        sleep(0.7)
 
         relatives.extend(get_mal_prequels(entry_data, type_, access_token, collected_ids)[0])
     
@@ -153,100 +154,73 @@ def get_mal(link):
 
     
     if 'anime' in link:
-        response = requests.get(f'https://api.myanimelist.net/v2/anime/{id_}?fields=title,main_picture,synopsis,genres,mean,related_anime,related_manga,media_type', headers={
-        'Authorization': 'Bearer '+access_token
-        })
+        response = requests.get(f'https://api.jikan.moe/v4/anime/{id_}/full/')
 
         if response.status_code == 401:
             update_tokens(client_id, client_secret, refresh_token)
             return get_mal(link)
 
-        data = response.json()
+        data = response.json()['data']
         subtype = 'anime'
  
         
 
     if 'manga' in link:
-        response = requests.get(f'https://api.myanimelist.net/v2/manga/{id_}?fields=title,main_picture,synopsis,genres,mean,related_anime,related_manga,media_type', headers={
-        'Authorization': 'Bearer '+access_token
-        })
+        response = requests.get(f'https://api.jikan.moe/v4/manga/{id_}/full/')
 
         if response.status_code == 401:
             update_tokens(client_id, client_secret, refresh_token)
             return get_mal(link)
 
-        data = response.json()
+        data = response.json()['data']
         subtype = 'manga'
-        
-    genres = [x['name'] for x in data['genres'] if x['name'].lower() in genre_names]
+
+    genres_list = [*data['genres'], *data['explicit_genres'], *data['themes'], *data['demographics']]
+
+    genres = [x['name'] for x in genres_list if x['name'].lower() in genre_names]
     title = data['title']
     description = data['synopsis']
-    rate = data['mean']
-    image = data['main_picture']['medium']
+    rate = data['score']
+    image = data['images']['jpg']['large_image_url']
     relatives = []
-    
-    for entry in data['related_anime']:
-        res = requests.get(f'https://api.myanimelist.net/v2/anime/{entry["node"]["id"]}?fields=title,main_picture,synopsis,genres,mean,media_type,related_anime', headers={
-        'Authorization': 'Bearer '+access_token
-        })
 
-        if entry['relation_type'] == 'other':
+    for entry in data['relations']:
+        sleep(0.7)
+
+        if entry['relation'] == 'Other':
             continue
         
-        entry_data = res.json()        
-        if entry_data['media_type'] == 'music' or entry_data['media_type'] == 'cm':
+        if entry['entry'][0]['type'] == 'music' or entry['entry'][0]['type'] == 'cm':
             continue
 
-        if entry['relation_type'] == 'prequel':
+        res = requests.get(f'https://api.jikan.moe/v4/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}/full/')
+        entry_data = res.json()['data']
+
+
+        if entry['relation'] == 'Prequel':
             prequel_relatives = get_mal_prequels(entry_data, 'anime', access_token, [id_])[0]
             relatives.extend(prequel_relatives)
 
-        if entry['relation_type'] != 'prequel':
+        if entry['relation'] != 'Prequel':
             sequel_relatives = get_mal_sequels(entry_data, 'anime', access_token, [id_])[0]
             relatives.extend(sequel_relatives)
+        
+        
+        entry_genres = [*entry_data['genres'], *entry_data['explicit_genres'], *entry_data['themes'], *entry_data['demographics']]
 
         relatives.append({
-            'title': entry['node']['title'],
-            'link': f'https://myanimelist.net/anime/{entry["node"]["id"]}',
-            'image': entry['node']['main_picture']['medium'],
-            'status': 'done' if entry['relation_type'] == 'prequel' else 'future',
+            'title': entry['entry'][0]['name'],
+            'link': f'https://myanimelist.net/{entry["entry"][0]["type"]}/{entry["entry"][0]["mal_id"]}',
+            'image': entry_data['images']['jpg']['large_image_url'],
+            'status': 'done' if entry['relation'] == 'Prequel' else 'future',
             'description': '.' if len(entry_data['synopsis']) == 0 else entry_data['synopsis'],
-            'rate': entry_data['mean'] if 'mean' in entry_data.keys() else None,
-            'genres':  [x['name'].lower() for x in entry_data['genres'] if x['name'].lower() in genre_names],
+            'rate': entry_data['score'],
+            'genres':  [x['name'].lower() for x in entry_genres if x['name'].lower() in genre_names],
             'type': 'anime&manga',
-            'subtype': 'anime'
+            'subtype': entry['entry'][0]['type']
         })
     
-    for entry in data['related_manga']:
-        res = requests.get(f'https://api.myanimelist.net/v2/manga/{entry["node"]["id"]}?fields=title,main_picture,synopsis,genres,mean,media_type,related_manga', headers={
-        'Authorization': 'Bearer '+access_token
-        })
-        
-        if entry['relation_type'] == 'other':
-            continue
 
-        entry_data = res.json()   
-
-        if entry['relation_type'] == 'prequel':
-            prequel_relatives = get_mal_prequels(entry_data, 'manga', access_token, [id_])[0]
-            relatives.extend(prequel_relatives)
-
-        else:
-            sequel_relatives = get_mal_sequels(entry_data, 'manga', access_token, [id_])[0]
-            relatives.extend(sequel_relatives)
-
-        relatives.append({
-            'title': entry['node']['title'],
-            'link': f'https://myanimelist.net/manga/{entry["node"]["id"]}',
-            'image': entry['node']['main_picture']['medium'],
-            'status': 'done' if entry['relation_type'] == 'prequel' else 'future',
-            'description': '.' if len(entry_data['synopsis']) == 0 else entry_data['synopsis'],
-            'rate': entry_data['mean'] if 'mean' in entry_data.keys() else None,
-            'genres':  [x['name'].lower() for x in entry_data['genres'] if x['name'].lower() in genre_names],
-            'type': 'anime&manga',
-            'subtype': 'manga',
-            'mal_id': entry['node']['id']
-        })
 
     return {
         'title': title,
@@ -255,7 +229,7 @@ def get_mal(link):
         'type': 'anime&manga',
         'subtype': subtype,
         'image': image,
-        'rate': float(rate),
+        'rate': float(rate) if rate is not None else None,
         'genres': genres,
         'mal_id': id_
     }, relatives
@@ -367,27 +341,30 @@ def get_anilist(link):
 
 def get_steam(link): # Scrapes game data from Steam.
 
-    page = requests.get(link).text
 
-    doc = BeautifulSoup(page, 'html.parser')
+    # https://store.steampowered.com/api/appdetails?appids=24682 api link
 
-    class_name = 'apphub_AppName'
+    if '/app/' in link and 'store.steampowered.com' in link:
+        link_ = link.split('/')
+        id_ = link_[link_.index('app') + 1]
 
-    name = doc.find('div', class_=class_name).string
+        response = requests.get(f'https://store.steampowered.com/api/appdetails?appids={id_}')
+        data = response.json()[id_]['data']
 
-    descriptions = doc.find('div', class_='game_area_description').strings
-    description = next(islice(descriptions,2, 3)).strip()
-    
-    image = doc.find('img', class_='game_header_image_full').attrs.get('src')
+        return {
+            'title': data['name'],
+            'description': data['short_description'],
+            'image': data['header_image'],
+            'rate': float(data['metacritic']['score']/10) if 'metacritic' in data else None,
+            'genres': [x['description'].lower() for x in data['genres'] if x['description'].lower() in genre_names],
+            'type': 'game',
+            'subtype': 'game',
+            'link': link
+        }, []
 
-    return {
-        'title': name,
-        'description': description,
-        'image': image,
-        'type': 'game',
-        'subtype': 'game',
-        'link': link
-    }, []
+
+    return None, []
+
 
 
 headers = {
@@ -407,8 +384,9 @@ def get_rottentomatoes(link):
 
     img = doc.find('rt-img', {'slot': 'posterImage'}).attrs.get('src')
 
-    avg_rate = doc.find('rt-text', {'slot': 'audienceScore'}).text.strip()
-    avg_rate = int(avg_rate[:-1])/10
+    avg_rate = doc.find_all('rt-text', {'slot': 'audienceScore'})[0].text.strip()
+    avg_rate
+    avg_rate = int(avg_rate[:-1])/10 if len(avg_rate) > 0 and avg_rate[:-1].isdigit() else None
 
     genres = doc.find_all('rt-text', {'slot': 'metadataGenre'})
     genres_list = []
@@ -444,7 +422,43 @@ def get_rottentomatoes(link):
         'subtype': subtype,
         'link': link
     }, []
+
+
+def get_imdb(link):
+
+    link_ = link
+
+    if link.endswith('/'):
+        link_ = list(link)
+        link_[-1] = ''
+        link_ = ''.join(link_)
     
+    link_ = link_.split('/')
+
+    if 'title' not in link_:
+        return None, []
+    
+    id_ = link_[link_.index('title') + 1]
+    
+    response = requests.get(f'http://www.omdbapi.com/?i={id_}&apikey={"9815aa71"}')
+
+    data = response.json()
+
+    if data and 'Response' in data and data['Response'] == 'True':
+        return {
+            'title': data['Title'],
+            'description': data['Plot'],
+            'image': data['Poster'],
+            'rate': float(data['imdbRating']) if data['imdbRating'] else None,
+            'genres': [x.lower() for x in data['Genre'].split(', ') if x.lower() in genre_names],
+            'type': 'anime&manga' if data['Language'] == 'Japanese' and 'Japan' in data['Country'] else 'shows&movies',
+            'subtype': 'movie' if data['Type'] == 'movie' else 'show',
+            'link': link
+        }, []
+
+
+
+
 
 
 

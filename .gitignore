@@ -11,3 +11,8 @@ Frontend
 Frontend/*
 entertainment/tokens.json
 learning_tracker/client_secret.json
+
+*/migrations
+*/migrations/*
+*/__pycache__
+*/pycache__/*

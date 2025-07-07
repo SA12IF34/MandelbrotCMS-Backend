@@ -1,7 +1,7 @@
 from typing import Type, Dict, Any, Optional
 from django.db.models import Model
 from rest_framework.serializers import ModelSerializer, ValidationError
-
+ 
 def get_all_objs(model: Type[Model], modelSerializer: Type[ModelSerializer], user: Any, order_by: str | list) -> Any:
     """
     Get all objects of model that user has created, ordered by certain field.
@@ -58,8 +58,8 @@ def patch_update_obj(model: Type[Model], modelSerializer: Type[ModelSerializer],
     if serializer.is_valid():
         serializer.save()
 
-        return True
-            
+        return serializer.data
+    print(serializer.errors)      
     raise ValidationError
 
     

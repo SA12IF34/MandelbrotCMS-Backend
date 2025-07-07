@@ -8,4 +8,4 @@ urlpatterns = [
     path('apis/missions/<int:pk>/', views.mission_operations, name='mission_operations'),
     path('apis/lists/<int:pk>/<str:sequence>/', views.get_sequence_list, name='get_sequence_list'),
     path('apis/set-cookie/', views.set_cookie, name="set_cookie")
-]
+] 

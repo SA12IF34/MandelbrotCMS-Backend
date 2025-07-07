@@ -5,6 +5,7 @@ from .views import (
     add_material_manually,
     get_all_materials,
     material_operations,
+    auto_update_material,
     get_special_materials,
     search_materials
 )
@@ -14,6 +15,7 @@ urlpatterns = [
     path('apis/add/manual/', add_material_manually, name='add_material_manually'),
     path('apis/all/', get_all_materials, name='get_all_materials'),
     path('apis/materials/<int:pk>/', material_operations, name='material_operations'),
+    path('apis/materials/<int:pk>/update/', auto_update_material, name='auto_update_material'),
     path('apis/special/', get_special_materials, name='get_special_materials'),
     path('apis/search/', search_materials, name='search_materials'),
 
