@@ -1,6 +1,6 @@
 <h1 align="center">MandelbrotCMS Backend</h1>
 
-[Live Production](https://cms.saifchan.online/)
+[Live Production](https://cms.saifchan.site/)
 <hr>
 
 ## About the Project
